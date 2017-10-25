@@ -18,12 +18,12 @@
   
   <entry>
     <title>hexo(6)--next小问题修改</title>
-    <link href="http://pigpi.cn/2017/10/25/hexo(6)--next%E5%B0%8F%E9%97%AE%E9%A2%98%E4%BF%AE%E6%94%B9/"/>
-    <id>http://pigpi.cn/2017/10/25/hexo(6)--next小问题修改/</id>
+    <link href="http://pigpi.cn/2017/10/25/hexo6--next%E5%B0%8F%E9%97%AE%E9%A2%98%E4%BF%AE%E6%94%B9/"/>
+    <id>http://pigpi.cn/2017/10/25/hexo6--next小问题修改/</id>
     <published>2017-10-25T06:15:08.000Z</published>
     <updated>2017-10-25T03:03:56.400Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="1-blockquote-文本内容超出不自动换行"><a href="#1-blockquote-文本内容超出不自动换行" class="headerlink" title="1. blockquote 文本内容超出不自动换行"></a>1. blockquote 文本内容超出不自动换行</h2><p>next主题中，用 blockquote  标签圈出文本时，出现以下情况:<img src="/2017/10/25/hexo(6)--next小问题修改/hexo(6" alt="">–next小问题修改/outline.png)</p><p>解决办法：</p><p>需要修改皮肤的样式，路径如下：/you_site_folder/themes/next/source/css_common/scaffolding/base.styl。</p><p>修改blockquote 样式下 添加  word-break: break-all;</p><figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">blockquote</span> &#123;</div><div class="line">  <span class="attribute">margin</span>: <span class="number">0</span>;</div><div class="line">  <span class="attribute">padding</span>: <span class="number">0</span>;</div><div class="line">  <span class="attribute">word-break</span>: break-all;</div><div class="line">&#125;</div></pre></td></tr></table></figure><p>效果如下：<img src="/2017/10/25/hexo(6)--next小问题修改/hexo(6" alt="">–next小问题修改/outline_final.png)</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="1-blockquote-文本内容超出不自动换行"><a href="#1-blockquote-文本内容超出不自动换行" class="headerlink" title="1. blockquote 文本内容超出不自动换行"></a>1. blockquote 文本内容超出不自动换行</h2><p>next主题中，用 blockquote  标签圈出文本时，出现以下情况:<img src="/2017/10/25/hexo6--next小问题修改/hexo(6" alt="">–next小问题修改/outline.png)</p><p>解决办法：</p><p>需要修改皮肤的样式，路径如下：/you_site_folder/themes/next/source/css_common/scaffolding/base.styl。</p><p>修改blockquote 样式下 添加  word-break: break-all;</p><figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">blockquote</span> &#123;</div><div class="line">  <span class="attribute">margin</span>: <span class="number">0</span>;</div><div class="line">  <span class="attribute">padding</span>: <span class="number">0</span>;</div><div class="line">  <span class="attribute">word-break</span>: break-all;</div><div class="line">&#125;</div></pre></td></tr></table></figure><p>效果如下：<img src="/2017/10/25/hexo6--next小问题修改/hexo(6" alt="">–next小问题修改/outline_final.png)</p>]]></content>
     
     <summary type="html">
     
@@ -45,8 +45,8 @@
   
   <entry>
     <title>hexo(5)--next美化整理</title>
-    <link href="http://pigpi.cn/2017/10/25/hexo(5)--next%E7%BE%8E%E5%8C%96%E6%95%B4%E7%90%86/"/>
-    <id>http://pigpi.cn/2017/10/25/hexo(5)--next美化整理/</id>
+    <link href="http://pigpi.cn/2017/10/25/hexo5--next%E7%BE%8E%E5%8C%96%E6%95%B4%E7%90%86/"/>
+    <id>http://pigpi.cn/2017/10/25/hexo5--next美化整理/</id>
     <published>2017-10-25T05:15:08.000Z</published>
     <updated>2017-10-25T03:04:35.196Z</updated>
     
@@ -74,8 +74,8 @@
   
   <entry>
     <title>hexo(4)--hexo辅助插件和实用工具</title>
-    <link href="http://pigpi.cn/2017/10/25/hexo(4)--hexo%E8%BE%85%E5%8A%A9%E6%8F%92%E4%BB%B6%E5%92%8C%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/"/>
-    <id>http://pigpi.cn/2017/10/25/hexo(4)--hexo辅助插件和实用工具/</id>
+    <link href="http://pigpi.cn/2017/10/25/hexo4--hexo%E8%BE%85%E5%8A%A9%E6%8F%92%E4%BB%B6%E5%92%8C%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/"/>
+    <id>http://pigpi.cn/2017/10/25/hexo4--hexo辅助插件和实用工具/</id>
     <published>2017-10-25T04:15:08.000Z</published>
     <updated>2017-10-25T03:04:39.170Z</updated>
     
@@ -92,8 +92,8 @@
   
   <entry>
     <title>hexo(3)--域名配置</title>
-    <link href="http://pigpi.cn/2017/10/24/hexo(3)--%E5%9F%9F%E5%90%8D%E9%85%8D%E7%BD%AE/"/>
-    <id>http://pigpi.cn/2017/10/24/hexo(3)--域名配置/</id>
+    <link href="http://pigpi.cn/2017/10/24/hexo3--%E5%9F%9F%E5%90%8D%E9%85%8D%E7%BD%AE/"/>
+    <id>http://pigpi.cn/2017/10/24/hexo3--域名配置/</id>
     <published>2017-10-24T06:15:08.000Z</published>
     <updated>2017-10-25T02:25:45.550Z</updated>
     
@@ -119,8 +119,8 @@
   
   <entry>
     <title>hexo(2)--主题的选择</title>
-    <link href="http://pigpi.cn/2017/10/24/hexo(2)--%E4%B8%BB%E9%A2%98%E7%9A%84%E9%80%89%E6%8B%A9/"/>
-    <id>http://pigpi.cn/2017/10/24/hexo(2)--主题的选择/</id>
+    <link href="http://pigpi.cn/2017/10/24/hexo2--%E4%B8%BB%E9%A2%98%E7%9A%84%E9%80%89%E6%8B%A9/"/>
+    <id>http://pigpi.cn/2017/10/24/hexo2--主题的选择/</id>
     <published>2017-10-24T05:15:08.000Z</published>
     <updated>2017-10-25T03:04:45.197Z</updated>
     
@@ -142,37 +142,6 @@
       <category term="hexo" scheme="http://pigpi.cn/tags/hexo/"/>
     
       <category term="next" scheme="http://pigpi.cn/tags/next/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>某些技术选型</title>
-    <link href="http://pigpi.cn/2017/10/20/%E6%9F%90%E4%BA%9B%E6%8A%80%E6%9C%AF%E9%80%89%E5%9E%8B/"/>
-    <id>http://pigpi.cn/2017/10/20/某些技术选型/</id>
-    <published>2017-10-20T06:15:08.000Z</published>
-    <updated>2017-10-25T03:04:56.066Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="微服务"><a href="#微服务" class="headerlink" title="微服务"></a>微服务</h2><p>##DevOps</p><p>##自动化测试和部署</p><p>##搜索</p><p>##数据监控</p><p><img src="https://i.imgur.com/2GCYWgA.jpg" alt=""></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;微服务&quot;&gt;&lt;a href=&quot;#微服务&quot; class=&quot;headerlink&quot; title=&quot;微服务&quot;&gt;&lt;/a&gt;微服务&lt;/h2&gt;&lt;p&gt;##DevOps&lt;/p&gt;
-&lt;p&gt;##自动化测试和部署&lt;/p&gt;
-&lt;p&gt;##搜索&lt;/p&gt;
-&lt;p&gt;##数据监控&lt;/p&gt;
-&lt;p&gt;&lt;img s
-      
-    
-    </summary>
-    
-      <category term="技术栈" scheme="http://pigpi.cn/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/"/>
-    
-    
-      <category term="工具" scheme="http://pigpi.cn/tags/%E5%B7%A5%E5%85%B7/"/>
-    
-      <category term="框架技术" scheme="http://pigpi.cn/tags/%E6%A1%86%E6%9E%B6%E6%8A%80%E6%9C%AF/"/>
     
   </entry>
   
@@ -208,9 +177,40 @@
   </entry>
   
   <entry>
+    <title>某些技术选型</title>
+    <link href="http://pigpi.cn/2017/10/20/%E6%9F%90%E4%BA%9B%E6%8A%80%E6%9C%AF%E9%80%89%E5%9E%8B/"/>
+    <id>http://pigpi.cn/2017/10/20/某些技术选型/</id>
+    <published>2017-10-20T06:15:08.000Z</published>
+    <updated>2017-10-25T03:04:56.066Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="微服务"><a href="#微服务" class="headerlink" title="微服务"></a>微服务</h2><p>##DevOps</p><p>##自动化测试和部署</p><p>##搜索</p><p>##数据监控</p><p><img src="https://i.imgur.com/2GCYWgA.jpg" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;微服务&quot;&gt;&lt;a href=&quot;#微服务&quot; class=&quot;headerlink&quot; title=&quot;微服务&quot;&gt;&lt;/a&gt;微服务&lt;/h2&gt;&lt;p&gt;##DevOps&lt;/p&gt;
+&lt;p&gt;##自动化测试和部署&lt;/p&gt;
+&lt;p&gt;##搜索&lt;/p&gt;
+&lt;p&gt;##数据监控&lt;/p&gt;
+&lt;p&gt;&lt;img s
+      
+    
+    </summary>
+    
+      <category term="技术栈" scheme="http://pigpi.cn/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/"/>
+    
+    
+      <category term="工具" scheme="http://pigpi.cn/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+      <category term="框架技术" scheme="http://pigpi.cn/tags/%E6%A1%86%E6%9E%B6%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
+  
+  <entry>
     <title>hexo(1)--hexo + github-pages博客的简单搭建</title>
-    <link href="http://pigpi.cn/2017/01/04/hexo(1)--hexo%20+%20github-pages%E5%8D%9A%E5%AE%A2%E7%9A%84%E7%AE%80%E5%8D%95%E6%90%AD%E5%BB%BA/"/>
-    <id>http://pigpi.cn/2017/01/04/hexo(1)--hexo + github-pages博客的简单搭建/</id>
+    <link href="http://pigpi.cn/2017/01/04/hexo1--hexo%20+%20github-pages%E5%8D%9A%E5%AE%A2%E7%9A%84%E7%AE%80%E5%8D%95%E6%90%AD%E5%BB%BA/"/>
+    <id>http://pigpi.cn/2017/01/04/hexo1--hexo + github-pages博客的简单搭建/</id>
     <published>2017-01-04T06:15:08.000Z</published>
     <updated>2017-10-25T02:46:17.720Z</updated>
     
