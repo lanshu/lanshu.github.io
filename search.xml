@@ -1,6 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[hexo(6)--next小问题修改]]></title>
+    <url>%2F2017%2F10%2F25%2Fhexo(6)--next%E5%B0%8F%E9%97%AE%E9%A2%98%E4%BF%AE%E6%94%B9%2F</url>
+    <content type="text"><![CDATA[1. blockquote 文本内容超出不自动换行next主题中，用 blockquote 标签圈出文本时，出现以下情况:–next小问题修改/outline.png) 解决办法： 需要修改皮肤的样式，路径如下：/you_site_folder/themes/next/source/css_common/scaffolding/base.styl。 修改blockquote 样式下 添加 word-break: break-all; 12345blockquote &#123; margin: 0; padding: 0; word-break: break-all;&#125; 效果如下：–next小问题修改/outline_final.png)]]></content>
+      <categories>
+        <category>hexo建博</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>next</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[hexo(5)--next美化整理]]></title>
+    <url>%2F2017%2F10%2F25%2Fhexo(5)--next%E7%BE%8E%E5%8C%96%E6%95%B4%E7%90%86%2F</url>
+    <content type="text"><![CDATA[既然选择了next主题，也不打算经常换，但是做一些美化还是可以考虑的。 ##1.在右上角或者左上角实现fork me on github]]></content>
+      <categories>
+        <category>hexo建博</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>next</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[hexo(4)--hexo辅助插件和实用工具]]></title>
+    <url>%2F2017%2F10%2F25%2Fhexo(4)--hexo%E8%BE%85%E5%8A%A9%E6%8F%92%E4%BB%B6%E5%92%8C%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7%2F</url>
+    <content type="text"></content>
+      <categories>
+        <category>hexo建博</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[hexo(3)--域名配置]]></title>
+    <url>%2F2017%2F10%2F24%2Fhexo(3)--%E5%9F%9F%E5%90%8D%E9%85%8D%E7%BD%AE%2F</url>
+    <content type="text"><![CDATA[如果不喜欢github提供的域名，还可以绑定自己的域名。 当然首先你得有一个域名，移步万网 域名解析我使用的是DNSPOD，在你的域名购买商那里把域名的DNS服务器改成你使用的域名解析的地址。 接着配置DNS解析，比如我的： 关于github的IP可以看这里。 然后在你的本地站点目录里的source目录下添加一个CNAME文件，不带后缀，以文本编辑器打开CNAME，里面添加你的域名信息（不加http前缀），比如我的：pigpi.cn。提交部署，现在使用域名应该就可以访问你的博客了。 开始写一篇博客基本的搭建都好了，那么到底怎么写一篇博客呢？ 我也是新手，没有使用什么插件之类的，而是采用最简单的方法，并且我也不觉得多麻烦。 新建文章，hexo new “文章名称”，文章会生成在./source/_posts文件夹中 采用可视化的markdown编辑器编写文章 生成并且部署 关于可视化工具我使用的是markdownpad。 激活信息邮箱地址：Soar360@live.com密钥： GBPduHjWfJU1mZqcPM3BikjYKF6xKhlKIys3i1MU2eJHqWGImDHzWdD6xhMNLGVpbP2M5SN6bnxn2kSE8qHqNY5QaaRxmO3YSMHxlv2EYpjdwLcPwfeTG7kUdnhKE0vVy4RidP6Y2wZ0q74f47fzsZo45JE2hfQBFi2O9Jldjp1mW8HUpTtLA2a5/sQytXJUQl/QKO0jUQY4pa5CCx20sV1ClOTZtAGngSOJtIOFXK599sBr5aIEFyH0K7H4BoNMiiDMnxt1rD8Vb/ikJdhGMMQr0R4B+L3nWU97eaVPTRKfWGDE8/eAgKzpGwrQQoDh+nzX1xoVQ8NAuH+s4UcSeQ== 关于图片图床我使用的是七牛云。 其他扩展功能关于搜索由于我使用的皮肤已经集成了搜索，所以自己也没捣鼓了，具体自己可以搜一搜。 评论插件评论插件我使用的是多说，具体步骤如下： 先去多说多说注册。 把多说与皮肤进行关联， 一般的皮肤只需要在皮肤的_config.yml文件里配上多说的用户名。当然有的皮肤复杂点可能还需要配置下多说的通用代码，我并没有遇到，所以不深究。 分享插件分享插件我使用的是百度分享，非常简单，只是需要选择自己喜欢的样子就可以了。 sitemap和RSS如果想要自己的博客被搜索引擎收录，需要安装sitemap插件： 123npm install hexo-generator-sitemap --savenpm install hexo-generator-baidu-sitemap --savenpm install hexo-generator-feed --save 网上大部分的教程这时候会让你在主目录的_config.yml文件配置下面的代码： 12345678910plugins: - hexo-generator-feed - hexo-generator-sitemap - hexo-generator-baidu-sitemap baidusitemap: path: baidusitemap.xml sitemap: path: sitemap.xml 经过我的测试，如果配置的话在生成时会一直报错，于是我去掉了，什么也不配置就行了，看来应该是hexo有内部的配置吧。 在你的博客根目录的public下面发现生成了sitemap.xml、baidusitemap.xml以及auto.xml就表示成功了。但这只是完成了第一步，还需要去百度站长进行登记。 关于404页面默认的404页面是github的，如果想自定义，需要把自己的404页面放在皮肤的source目录下即可。我采用的是腾讯公益的页面： 1234567891011&lt;!DOCTYPE HTML&gt; &lt;html&gt; &lt;head&gt; &lt;meta http-equiv="content-type" content="text/html;charset=utf-8;"/&gt; &lt;meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /&gt; &lt;meta name="robots" content="all" /&gt; &lt;meta name="robots" content="index,follow"/&gt; &lt;/head&gt; &lt;body&gt; &lt;script type="text/javascript" src="http://www.qq.com/404/search_children.js" charset="utf-8" homePageUrl="your site url " homePageName="回到我的主页"&gt;&lt;/script&gt; &lt;/body&gt; &lt;/html&gt; 结尾暂时就这样吧，其他的以后再说。 ​]]></content>
+      <categories>
+        <category>hexo建博</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[hexo(2)--主题的选择]]></title>
+    <url>%2F2017%2F10%2F24%2Fhexo(2)--%E4%B8%BB%E9%A2%98%E7%9A%84%E9%80%89%E6%8B%A9%2F</url>
+    <content type="text"><![CDATA[前篇已经简单的搭建了一个hexo博客，但是我希望能够有更好的视觉效果，这时候就涉及到主题的选择。 主题网站给两个地址 Hexo的官网主题专栏 （总有一款适合你的）知乎：有哪些好看的 Hexo 主题？ 主题的质量参差不齐，尽量选择有良好的说明文档，持续更新的。主题的安装非常简单，找到地址，例如next主题： $ cd your-hexo-site $ git clone https://github.com/iissnan/hexo-theme-next themes/next 打开博客根目录的 _config.yml 设为 theme: you_theme_name。这样皮肤就设置好了，可以本地启动预览一下。 至于主题本身的设置，优化美化，支持的插件集成等等，就需要查看主题的文档了。 ###论选择一款好主题的重要性 主题的作用在我看来除了赏心悦目意外，更重要的就是维护省心、更新及时。个人博客的主旨在于分享自己，内容是第一位的，如果把有限的精力花在不断的应付主题的bug上，挺闹心。例如以前用的最多的评论插件是duoshuo，去年duoshuo关停了，找替代方案网易云跟帖，又关停了。好的主题会及时提供替代方案或者开始就提供多种方案供我们选择，出现问题改下配置文件就可以。如果是差一点的，可能必须要换一款主题才行。 拿我使用过的两款来说：fexo、next ，点进去就能立判高下。虽然我超爱fexo的样子，但是也不得不妥协选择了人气最高的next主题。]]></content>
+      <categories>
+        <category>hexo建博</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>next</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[方向]]></title>
     <url>%2F2017%2F10%2F20%2F%E6%96%B9%E5%90%91%2F</url>
     <content type="text"><![CDATA[#微服务 #DevOps #自动化测试和部署 #搜索 #数据监控]]></content>
@@ -12,20 +70,32 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[vmware安装vmware-tools]]></title>
-    <url>%2F2017%2F05%2F11%2Fvmware%E5%AE%89%E8%A3%85vmtools%2F</url>
-    <content type="text"><![CDATA[vmware网络设置vi /etc/sysconfig/network-scripts/syscfg-enoxxxxx boot 改为 true service network restart 安装库yum install gcc perl kernel-devel yum search ifconfig yum install net-tools.x86_64 更新yum -y update reboot 安装tools载入安装目录下linux.iso mount /dev/cdrom /media cd /media cp VMwareTools-xxxxx.tar.gz /home cd /home tar -zxcf VMwareTools-xxxxx.tar.gz cd /vmware-tools-distrib/ ./vmware-install.pl 一路回车 reboot]]></content>
+    <title><![CDATA[某些技术选型]]></title>
+    <url>%2F2017%2F10%2F20%2F%E6%9F%90%E4%BA%9B%E6%8A%80%E6%9C%AF%E9%80%89%E5%9E%8B%2F</url>
+    <content type="text"><![CDATA[微服务##DevOps ##自动化测试和部署 ##搜索 ##数据监控]]></content>
       <categories>
-        <category>技术</category>
+        <category>技术栈</category>
       </categories>
       <tags>
         <tag>工具</tag>
+        <tag>框架技术</tag>
       </tags>
   </entry>
   <entry>
     <title><![CDATA[如何简单搭建一个github pages + hexo博客]]></title>
     <url>%2F2017%2F01%2F04%2F%E5%A6%82%E4%BD%95%E7%AE%80%E5%8D%95%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AAgithub-pages%E5%8D%9A%E5%AE%A2%2F</url>
     <content type="text"><![CDATA[想了一下，还是把搭建一个github pages博客作为第一篇文章，虽然没什么太大技术含量，但是比较琐碎，整理一下也好。 关于github pagesGithub Pages 是github提供的一种服务，可以用来搭建个人页面，GitHub Pages分两种，一种是你的GitHub用户名建立的username.github.io这样的用户&amp;组织页（站），另一种是依附项目的pages。我们要搭建自己的博客使用的是第一种方式，这种方式每个用户名下面只能建立一个。 使用github创建的博客是属于静态网站博客，都是以静态html形式展现，好处就是简单。 关于hexo hexo是一款基于Node.js的静态博客框架。目前在GitHub上已有1375 star 和 219 fork。 特性 风一般的速度Hexo基于Node.js，支持多进程，几百篇文章也可以秒生成。 流畅的撰写支持GitHub Flavored Markdown和所有Octopress的插件。 扩展性Hexo支持EJS、Swig和Stylus。通过插件支持Haml、Jade和Less。 也有很多类似的框架，比如Jekyll、Ghost等等，我反正一点也不了解，不在我的知识范围呢，使用hexo原因也很简单，搜索出来hexo和jekyll二选一，我觉得hexo更简洁一些而已（至少名字要好记）。 关于markdown Markdown 是一种用来写作的轻量级「标记语言」，它用简洁的语法代替排版，而不像一般我们用的字处理软件 Word 或 Pages 有大量的排版、字体设置。它使我们专心于码字，用「标记」语法，来代替常见的排版格式。 虽然说是一种语言，其实学习成本很低，我在写这篇博客时也才是刚刚使用。使用hexo来写博客，需要使用markdown语言。 Markdown 语法说明 (简体中文版) 博客搭建步骤准备工作 你必须有一个github账号。点此直达 你必须在电脑上安装了git工具，用于文章的上传。点此下载 安装node.js，hexo是基于这个的，用于生成静态页面。点此下载 创建Github Pages项目借用别人的一张图： 然后需要配置SSH密钥，可以让本地git项目与远程的github建立联系，让我们在本地写了代码之后直接通过git操作就可以实现本地代码库与Github代码库同步。这个我就不赘述了，可以参考下这篇文章的第三节。 hexo的安装和配置安装找一个你喜欢的地方建个文件夹，进文件夹使用Git Bash敲命令 1npm install -g hexo-cli 此外有很多插件可以选择： 12345678910111213npm install hexo-generator-index --save npm install hexo-generator-archive --save npm install hexo-generator-category --save npm install hexo-generator-tag --save npm install hexo-server --save npm install hexo-deployer-git --save npm install hexo-deployer-heroku --save npm install hexo-deployer-rsync --save npm install hexo-deployer-openshift --save npm install hexo-renderer-marked@0.2 --save npm install hexo-renderer-stylus@0.2 --save npm install hexo-generator-feed@1 --save npm install hexo-generator-sitemap@1 --save 反正我是不知道有什么用，直接全装上了。安装插件的时候也许会报错，试试看更新下npm的版本： 1234npm i npm -g``` 然后需要做初始化： hexo init1234567891011121314151617这样文件夹内就生成了博客的目录，如下： ![](http://ojae95hts.bkt.clouddn.com/17-1-5/11101925-file_1483596354994_142c7.png) &gt; - .deploy：执行hexo deploy命令部署到GitHub上的内容目录 - public：执行hexo generate命令，输出的静态网页内容目录- scaffolds：layout模板文件目录，其中的md文件可以添加编辑- scripts：扩展脚本目录，这里可以自定义一些javascript脚本- source：文章源码目录，该目录下的markdown和html文件均会被hexo处理。该页面对应repo的根目录，404文件、favicon.ico文件，CNAME文件等都应该放这里，该目录下可新建页面目录。- _drafts：草稿文章- _posts：发布文章- themes：主题文件目录- _config.yml：全局配置文件，大多数的设置都在这里- package.json：应用程序数据，指明hexo的版本等信息，类似于一般软件中的关于按钮 至此hexo也就安装好了，可以试着预览下，需要通过命令： hexo ghexo s12345678910111213141516171819202122前者是生成静态页面，后者是启动服务，启动后通过http://localhost:4000/能够预览你的博客。 ![](http://ojae95hts.bkt.clouddn.com/17-1-5/36871701-file_1483595890915_1424.png?imageView/2/w/619/q/90) ### hexo的常用命令和配置 关于你博客的设置可以分成2部分： 1. 全局设置：在你博客目录下有一个文件名_config.yml，打开可以配置信息。 2. 局部设置：在你博客目录下 \themes\你使用的主题\_config.yml，经常修改的应该是这个文件，因为直接关乎到博客的样子 常用命令都很简单： ``` Hexo常用命令：hexo new &quot;postName&quot; #新建文章hexo new page &quot;pageName&quot; #新建页面hexo generate #生成静态页面至public目录hexo server #开启预览访问端口（默认端口4000，&apos;ctrl + c&apos;关闭server）hexo deploy #将.deploy目录部署到GitHub hexo clean #有任何问题都可以使用clean试试 当然，如果每次输入那么长命令，那么一定想到用简写： 1234hexo n == hexo newhexo g == hexo generatehexo s == hexo serverhexo d == hexo deploy 复合命令： 12hexo d -ghexo s -g 其他命令： 1npm update -g hexo #更新hexo 和Github pages项目进行关联复制你的github pages项目的地址，例如我的是：https://github.com/lanshu/lanshu.github.io.git。 打开你的hexo文件夹的配置文件_config.yml，找到deploy节点，按照如下配置： 好看的皮肤你现在肯定想的是，这和我看到的那些漂亮的博客完全没关系啊，不要着急，接下来我们可以选择自己喜欢的皮肤来安装。 关于皮肤，可以去Hexo的官网主题专栏 去找，这里基本是主流的皮肤，其他的需要自己去找了，github上就有很多。 找到自己喜欢的皮肤后，复制他的地址，比如我用的皮肤是fexo，地址https://github.com/lanshu/fexo， 1git clone git@github.com:forsigner/fexo.git themes/fexo 打开博客根目录的 _config.yml 设为 theme: fexo（你自己的皮肤名称）。这样皮肤就设置好了，可以本地启动预览一下。 一般这样的项目首页上都会有文档，教你如何去安装和配置，包括博客里的各种样式、文字、插件等等，也都很简单。有能力的自己也可以开发一套，我是没这方面的能力。 关于域名配置基本的博客都搭建好了，如果不喜欢github提供的域名，还可以绑定自己的域名，首先你得有一个域名。 域名解析我使用的是DNSPOD，在你的域名购买商那里把域名的DNS服务器改成你使用的域名解析的地址。 接着配置DNS解析，比如我的： 关于github的IP可以看这里。 然后在你的本地站点目录里的source目录下添加一个CNAME文件，不带后缀，以文本编辑器打开CNAME，里面添加你的域名信息（不加http://）。提交部署，现在使用域名应该就可以访问你的博客了。 开始写一篇博客基本的搭建都好了，那么到底怎么写一篇博客呢？ 我也是新手，没有使用什么插件之类的，而是采用最简单的方法，并且我也不觉得多麻烦。 新建文章，hexo new “文章名称”，文章会生成在./source/_posts文件夹中 采用可视化的markdown编辑器编写文章 生成并且部署 关于可视化工具我使用的是markdownpad。 激活信息邮箱地址：Soar360@live.com密钥： GBPduHjWfJU1mZqcPM3BikjYKF6xKhlKIys3i1MU2eJHqWGImDHzWdD6xhMNLGVpbP2M5SN6bnxn2kSE8qHqNY5QaaRxmO3YSMHxlv2EYpjdwLcPwfeTG7kUdnhKE0vVy4RidP6Y2wZ0q74f47fzsZo45JE2hfQBFi2O9Jldjp1mW8HUpTtLA2a5/sQytXJUQl/QKO0jUQY4pa5CCx20sV1ClOTZtAGngSOJtIOFXK599sBr5aIEFyH0K7H4BoNMiiDMnxt1rD8Vb/ikJdhGMMQr0R4B+L3nWU97eaVPTRKfWGDE8/eAgKzpGwrQQoDh+nzX1xoVQ8NAuH+s4UcSeQ== 关于图片图床我使用的是七牛云。 其他扩展功能关于搜索由于我使用的皮肤已经集成了搜索，所以自己也没捣鼓了，具体自己可以搜一搜。 评论插件评论插件我使用的是多说，具体步骤如下： 先去多说多说注册。 把多说与皮肤进行关联， 一般的皮肤只需要在皮肤的_config.yml文件里配上多说的用户名。当然有的皮肤复杂点可能还需要配置下多说的通用代码，我并没有遇到，所以不深究。 分享插件分享插件我使用的是百度分享，非常简单，只是需要选择自己喜欢的样子就可以了。 sitemap和RSS如果想要自己的博客被搜索引擎收录，需要安装sitemap插件： 123npm install hexo-generator-sitemap --savenpm install hexo-generator-baidu-sitemap --savenpm install hexo-generator-feed --save 网上大部分的教程这时候会让你在主目录的_config.yml文件配置下面的代码： 12345678910plugins: - hexo-generator-feed - hexo-generator-sitemap - hexo-generator-baidu-sitemap baidusitemap: path: baidusitemap.xml sitemap: path: sitemap.xml 经过我的测试，如果配置的话在生成时会一直报错，于是我去掉了，什么也不配置就行了，看来应该是hexo有内部的配置吧。 在你的博客根目录的public下面发现生成了sitemap.xml、baidusitemap.xml以及auto.xml就表示成功了。但这只是完成了第一步，还需要去百度站长进行登记。 关于404页面默认的404页面是github的，如果想自定义，需要把自己的404页面放在皮肤的source目录下即可。我采用的是腾讯公益的页面： 1234567891011&lt;!DOCTYPE HTML&gt; &lt;html&gt; &lt;head&gt; &lt;meta http-equiv="content-type" content="text/html;charset=utf-8;"/&gt; &lt;meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /&gt; &lt;meta name="robots" content="all" /&gt; &lt;meta name="robots" content="index,follow"/&gt; &lt;/head&gt; &lt;body&gt; &lt;script type="text/javascript" src="http://www.qq.com/404/search_children.js" charset="utf-8" homePageUrl="your site url " homePageName="回到我的主页"&gt;&lt;/script&gt; &lt;/body&gt; &lt;/html&gt; 结尾暂时就这样吧，其他的以后再说。 window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":["weixin","tsina","qzone","tqq","sqq","copy"],"bdPic":"","bdStyle":"0","bdSize":"24"},"slide":{"type":"slide","bdImg":"5","bdPos":"right","bdTop":"250"}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>博客相关</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[hexo(1)--hexo + github-pages博客的简单搭建]]></title>
+    <url>%2F2017%2F01%2F04%2Fhexo(1)--hexo%20%2B%20github-pages%E5%8D%9A%E5%AE%A2%E7%9A%84%E7%AE%80%E5%8D%95%E6%90%AD%E5%BB%BA%2F</url>
+    <content type="text"><![CDATA[关于github pagesGithub Pages 是github提供的一种服务，可以用来搭建个人页面，GitHub Pages分两种，一种是你的GitHub用户名建立的username.github.io这样的用户&amp;组织页（站），另一种是依附项目的pages。我们要搭建自己的博客使用的是第一种方式，这种方式每个用户名下面只能建立一个。 使用github创建的博客是属于静态网站博客，都是以静态html形式展现，好处就是简单。 关于hexo hexo是一款基于Node.js的静态博客框架。目前在GitHub上已有1375 star 和 219 fork。 特性 风一般的速度 Hexo基于Node.js，支持多进程，几百篇文章也可以秒生成。 流畅的撰写 支持GitHub Flavored Markdown和所有Octopress的插件。 扩展性 Hexo支持EJS、Swig和Stylus。通过插件支持Haml、Jade和Less。 也有很多类似的框架，比如Jekyll、Ghost等等，我反正一点也不了解，不在我的知识范围呢，使用hexo原因也很简单，搜索出来hexo和jekyll二选一，我觉得hexo更简洁一些而已（至少名字要好记）。 关于markdown Markdown 是一种用来写作的轻量级「标记语言」，它用简洁的语法代替排版，而不像一般我们用的字处理软件 Word 或 Pages 有大量的排版、字体设置。它使我们专心于码字，用「标记」语法，来代替常见的排版格式。 虽然说是一种语言，其实学习成本很低，我在写这篇博客时也才是刚刚使用。使用hexo来写博客，需要使用markdown语言。 Markdown 语法说明 (简体中文版) 博客搭建步骤准备工作 你必须有一个github账号。点此直达 你必须在电脑上安装了git工具，用于文章的上传。点此下载 安装node.js，hexo是基于这个的，用于生成静态页面。点此下载 创建Github Pages项目借用别人的一张图： 然后需要配置SSH密钥，可以让本地git项目与远程的github建立联系，让我们在本地写了代码之后直接通过git操作就可以实现本地代码库与Github代码库同步。这个我就不赘述了，可以参考下这篇文章的第三节。 hexo的安装和配置安装找一个你喜欢的地方建个文件夹，进文件夹使用Git Bash敲命令 npm install -g hexo-cli 此外有很多插件可以选择： npm install hexo-generator-index --save npm install hexo-generator-archive --save npm install hexo-generator-category --save npm install hexo-generator-tag --save npm install hexo-server --save npm install hexo-deployer-git --save npm install hexo-deployer-heroku --save npm install hexo-deployer-rsync --save npm install hexo-deployer-openshift --save npm install hexo-renderer-marked@0.2 --save npm install hexo-renderer-stylus@0.2 --save npm install hexo-generator-feed@1 --save npm install hexo-generator-sitemap@1 --save 反正我是不知道有什么用，直接全装上了。安装插件的时候也许会报错，试试看更新下npm的版本： 1npm i npm -g 然后需要做初始化： hexo init 这样文件夹内就生成了博客的目录，如下： deploy：执行hexo deploy命令部署到GitHub上的内容目录public：执行hexo generate命令，输出的静态网页内容目录scaffolds：layout模板文件目录，其中的md文件可以添加编辑scripts：扩展脚本目录，这里可以自定义一些javascript脚本source：文章源码目录，该目录下的markdown和html文件均会被hexo处理。该页面对应repo的根目录，404文件、favicon.ico文件，CNAME文件等都应该放这里，该目录下可新建页面目录。_drafts：草稿文章_posts：发布文章themes：主题文件目录_config.yml：全局配置文件，大多数的设置都在这里package.json：应用程序数据，指明hexo的版本等信息，类似于一般软件中的关于按钮 至此hexo也就安装好了，可以试着预览下，需要通过命令： hexo g hexo s 前者是生成静态页面，后者是启动服务，启动后通过http://localhost:4000/能够预览你的博客。 hexo的常用命令和配置关于你博客的设置可以分成2部分： 全局设置：在你博客目录下有一个文件名_config.yml，打开可以配置信息。 局部设置：在你博客目录下 \themes\你使用的主题_config.yml，经常修改的应该是这个文件，因为直接关乎到博客的样子 常用命令都很简单： Hexo常用命令： hexo new &quot;postName&quot; #新建文章 hexo new page &quot;pageName&quot; #新建页面 hexo generate #生成静态页面至public目录 hexo server #开启预览访问端口（默认端口4000，&apos;ctrl + c&apos;关闭server） hexo deploy #将.deploy目录部署到GitHub hexo clean #有任何问题都可以使用clean试试 当然，如果每次输入那么长命令，那么一定想到用简写： hexo n == hexo new hexo g == hexo generate hexo s == hexo server hexo d == hexo deploy 复合命令： hexo d -g hexo s -g 其他命令： npm update -g hexo #更新hexo 和Github pages项目进行关联复制你的github pages项目的地址，例如我的是：https://github.com/lanshu/lanshu.github.io.git。 打开你的hexo文件夹的配置文件_config.yml，找到deploy节点，按照如下配置： 开始写一篇博客基本的搭建都好了，那么到底怎么写一篇博客呢？ 我也是新手，没有使用什么插件之类的，而是采用最简单的方法，并且我也不觉得多麻烦。 新建文章，hexo new “文章名称”，文章会生成在./source/_posts文件夹中 采用可视化的markdown编辑器编写文章 生成并且部署 hexo d -g 关于可视化工具我使用的是markdownpad。 激活信息邮箱地址：Soar360@live.com密钥： GBPduHjWfJU1mZqcPM3BikjYKF6xKhlKIys3i1MU2eJHqWGImDHzWdD6xhMNLGVpbP2M5SN6bnxn2kSE8qHqNY5QaaRxmO3YSMHxlv2EYpjdwLcPwfeTG7kUdnhKE0vVy4RidP6Y2wZ0q74f47fzsZo45JE2hfQBFi2O9Jldjp1mW8HUpTtLA2a5/sQytXJUQl/QKO0jUQY4pa5CCx20sV1ClOTZtAGngSOJtIOFXK599sBr5aIEFyH0K7H4BoNMiiDMnxt1rD8Vb/ikJdhGMMQr0R4B+L3nWU97eaVPTRKfWGDE8/eAgKzpGwrQQoDh+nzX1xoVQ8NAuH+s4UcSeQ== ​]]></content>
       <categories>
         <category>技术</category>
       </categories>
