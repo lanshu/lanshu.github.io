@@ -89,15 +89,15 @@
 <meta property="og:site_name" content="pigpi">
 <meta property="og:description" content="关于github pagesGithub Pages 是github提供的一种服务，可以用来搭建个人页面，GitHub Pages分两种，一种是你的GitHub用户名建立的username.github.io这样的用户&amp;amp;组织页（站），另一种是依附项目的pages。我们要搭建自己的博客使用的是第一种方式，这种方式每个用户名下面只能建立一个。   使用github创建的博客是属于静态网站博客，">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="http://ojae95hts.bkt.clouddn.com/17-1-5/52030435-file_1483603014029_720.png">
-<meta property="og:image" content="http://ojae95hts.bkt.clouddn.com/17-1-5/11101925-file_1483596354994_142c7.png">
-<meta property="og:image" content="http://ojae95hts.bkt.clouddn.com/17-1-5/36871701-file_1483595890915_1424.png?imageView/2/w/619/q/90">
-<meta property="og:image" content="http://ojae95hts.bkt.clouddn.com/17-1-5/7933302-file_1483603567187_17b95.png">
-<meta property="og:updated_time" content="2017-10-25T02:46:17.720Z">
+<meta property="og:image" content="http://pigpi.cn/2017/01/04/hexo1--hexo%20+%20github-pages博客的简单搭建/1.png">
+<meta property="og:image" content="http://pigpi.cn/2017/01/04/hexo1--hexo%20+%20github-pages博客的简单搭建/2.png">
+<meta property="og:image" content="http://pigpi.cn/2017/01/04/hexo1--hexo%20+%20github-pages博客的简单搭建/3.png">
+<meta property="og:image" content="http://pigpi.cn/2017/01/04/hexo1--hexo%20+%20github-pages博客的简单搭建/4.png">
+<meta property="og:updated_time" content="2017-10-25T03:44:20.314Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hexo(1)--hexo + github-pages博客的简单搭建">
 <meta name="twitter:description" content="关于github pagesGithub Pages 是github提供的一种服务，可以用来搭建个人页面，GitHub Pages分两种，一种是你的GitHub用户名建立的username.github.io这样的用户&amp;amp;组织页（站），另一种是依附项目的pages。我们要搭建自己的博客使用的是第一种方式，这种方式每个用户名下面只能建立一个。   使用github创建的博客是属于静态网站博客，">
-<meta name="twitter:image" content="http://ojae95hts.bkt.clouddn.com/17-1-5/52030435-file_1483603014029_720.png">
+<meta name="twitter:image" content="http://pigpi.cn/2017/01/04/hexo1--hexo%20+%20github-pages博客的简单搭建/1.png">
 
 
 
@@ -434,7 +434,7 @@
 <li>安装node.js，hexo是基于这个的，用于生成静态页面。<a href="https://nodejs.org/en/" target="_blank" rel="external">点此下载</a>  </li>
 </ol>
 <h2 id="创建Github-Pages项目"><a href="#创建Github-Pages项目" class="headerlink" title="创建Github Pages项目"></a>创建Github Pages项目</h2><p>借用别人的一张图：  </p>
-<p><img src="http://ojae95hts.bkt.clouddn.com/17-1-5/52030435-file_1483603014029_720.png" alt="">  </p>
+<p><img src="/2017/01/04/hexo1--hexo + github-pages博客的简单搭建/1.png" alt="">  </p>
 <p>然后需要配置SSH密钥，可以让本地git项目与远程的github建立联系，让我们在本地写了代码之后直接通过git操作就可以实现本地代码库与Github代码库同步。这个我就不赘述了，可以参考下<a href="http://www.jianshu.com/p/15ae47eddc56" target="_blank" rel="external">这篇文章</a>的第三节。</p>
 <h2 id="hexo的安装和配置"><a href="#hexo的安装和配置" class="headerlink" title="hexo的安装和配置"></a>hexo的安装和配置</h2><h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p>找一个你喜欢的地方建个文件夹，进文件夹使用Git Bash敲命令</p>
 <pre><code>npm install -g hexo-cli  
@@ -457,13 +457,13 @@ npm install hexo-generator-sitemap@1 --save
 <p>然后需要做初始化：  </p>
 <pre><code>hexo init
 </code></pre><p>这样文件夹内就生成了博客的目录，如下：  </p>
-<p><img src="http://ojae95hts.bkt.clouddn.com/17-1-5/11101925-file_1483596354994_142c7.png" alt="aa">  </p>
+<p><img src="/2017/01/04/hexo1--hexo + github-pages博客的简单搭建/2.png" alt="aa">  </p>
 <p>deploy：执行hexo deploy命令部署到GitHub上的内容目录<br>public：执行hexo generate命令，输出的静态网页内容目录<br>scaffolds：layout模板文件目录，其中的md文件可以添加编辑<br>scripts：扩展脚本目录，这里可以自定义一些javascript脚本<br>source：文章源码目录，该目录下的markdown和html文件均会被hexo处理。该页面对应repo的根目录，404文件、favicon.ico文件，CNAME文件等都应该放这里，该目录下可新建页面目录。<br>_drafts：草稿文章<br>_posts：发布文章<br>themes：主题文件目录<br>_config.yml：全局配置文件，大多数的设置都在这里<br>package.json：应用程序数据，指明hexo的版本等信息，类似于一般软件中的关于按钮</p>
 <p>至此hexo也就安装好了，可以试着预览下，需要通过命令：  </p>
 <pre><code>hexo g   
 hexo s
 </code></pre><p>前者是生成静态页面，后者是启动服务，启动后通过<a href="http://localhost:4000/能够预览你的博客。" target="_blank" rel="external">http://localhost:4000/能够预览你的博客。</a>  </p>
-<p><img src="http://ojae95hts.bkt.clouddn.com/17-1-5/36871701-file_1483595890915_1424.png?imageView/2/w/619/q/90" alt="">  </p>
+<p><img src="/2017/01/04/hexo1--hexo + github-pages博客的简单搭建/3.png" alt="">  </p>
 <h3 id="hexo的常用命令和配置"><a href="#hexo的常用命令和配置" class="headerlink" title="hexo的常用命令和配置"></a>hexo的常用命令和配置</h3><p>关于你博客的设置可以分成2部分：  </p>
 <ol>
 <li>全局设置：在你博客目录下有一个文件名_config.yml，打开可以配置信息。  </li>
@@ -489,7 +489,7 @@ hexo s -g
 <pre><code>npm update -g hexo           #更新hexo
 </code></pre><h3 id="和Github-pages项目进行关联"><a href="#和Github-pages项目进行关联" class="headerlink" title="和Github pages项目进行关联"></a>和Github pages项目进行关联</h3><p>复制你的github pages项目的地址，例如我的是：<strong><a href="https://github.com/lanshu/lanshu.github.io.git" target="_blank" rel="external">https://github.com/lanshu/lanshu.github.io.git</a></strong>。  </p>
 <p>打开你的hexo文件夹的配置文件_config.yml，找到deploy节点，按照如下配置：  </p>
-<p><img src="http://ojae95hts.bkt.clouddn.com/17-1-5/7933302-file_1483603567187_17b95.png" alt="">  </p>
+<p><img src="/2017/01/04/hexo1--hexo + github-pages博客的简单搭建/4.png" alt="">  </p>
 <h1 id="开始写一篇博客"><a href="#开始写一篇博客" class="headerlink" title="开始写一篇博客"></a>开始写一篇博客</h1><p>基本的搭建都好了，那么到底怎么写一篇博客呢？  </p>
 <p>我也是新手，没有使用什么插件之类的，而是采用最简单的方法，并且我也不觉得多麻烦。  </p>
 <ol>

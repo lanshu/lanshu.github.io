@@ -404,12 +404,12 @@
       
         
           
-            <h2 id="1-blockquote-文本内容超出不自动换行"><a href="#1-blockquote-文本内容超出不自动换行" class="headerlink" title="1. blockquote 文本内容超出不自动换行"></a>1. blockquote 文本内容超出不自动换行</h2><p>next主题中，用 blockquote  标签圈出文本时，出现以下情况:<img src="/2017/10/25/hexo6--next小问题修改/hexo(6" alt="">–next小问题修改/outline.png)</p>
+            <h2 id="1-blockquote-文本内容超出不自动换行"><a href="#1-blockquote-文本内容超出不自动换行" class="headerlink" title="1. blockquote 文本内容超出不自动换行"></a>1. blockquote 文本内容超出不自动换行</h2><p>next主题中，用 blockquote  标签圈出文本时，出现以下情况:<img src="/2017/10/25/hexo6--next小问题修改/outline.png" alt=""></p>
 <p>解决办法：</p>
 <p>需要修改皮肤的样式，路径如下：/you_site_folder/themes/next/source/css_common/scaffolding/base.styl。</p>
 <p>修改blockquote 样式下 添加  word-break: break-all;</p>
 <figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">blockquote</span> &#123;</div><div class="line">  <span class="attribute">margin</span>: <span class="number">0</span>;</div><div class="line">  <span class="attribute">padding</span>: <span class="number">0</span>;</div><div class="line">  <span class="attribute">word-break</span>: break-all;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p>效果如下：<img src="/2017/10/25/hexo6--next小问题修改/hexo(6" alt="">–next小问题修改/outline_final.png)</p>
+<p>效果如下：<img src="/2017/10/25/hexo6--next小问题修改/outline_final.png" alt=""></p>
 
           
         
@@ -562,8 +562,10 @@
         
           
             <p>既然选择了next主题，也不打算经常换，但是做一些美化还是可以考虑的。</p>
-<p>##1.在右上角或者左上角实现fork me on github</p>
-
+<p>##1. 在右上角或者左上角实现fork me on github</p>
+<p>##2. 关于404页面</p>
+<p>默认的404页面是github的，如果想自定义，需要把自己的404.html页面放在皮肤的source目录下即可。建议使用腾讯公益的页面：  </p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;!DOCTYPE HTML&gt;</span> </div><div class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span> </div><div class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span> </div><div class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">"content-type"</span> <span class="attr">content</span>=<span class="string">"text/html;charset=utf-8;"</span>/&gt;</span> </div><div class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">"X-UA-Compatible"</span> <span class="attr">content</span>=<span class="string">"IE=edge,chrome=1"</span> /&gt;</span> </div><div class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"robots"</span> <span class="attr">content</span>=<span class="string">"all"</span> /&gt;</span> <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"robots"</span> <span class="attr">content</span>=<span class="string">"index,follow"</span>/&gt;</span> </div><div class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span> </div><div class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span> </div><div class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span> <span class="attr">src</span>=<span class="string">"http://www.qq.com/404/search_children.js"</span> <span class="attr">charset</span>=<span class="string">"utf-8"</span> <span class="attr">homePageUrl</span>=<span class="string">"your site url "</span> <span class="attr">homePageName</span>=<span class="string">"回到我的主页"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span> </div><div class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span> </div><div class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></div></pre></td></tr></table></figure>
           
         
       
@@ -869,7 +871,7 @@
 <p>当然首先你得有一个域名，移步<a href="https://wanwang.aliyun.com" target="_blank" rel="external">万网</a></p>
 <p>域名解析我使用的是<a href="https://www.dnspod.cn/console/dashboard" target="_blank" rel="external">DNSPOD</a>，在你的域名购买商那里把域名的DNS服务器改成你使用的域名解析的地址。  </p>
 <p>接着配置DNS解析，比如我的：  </p>
-<p><img src="http://ojae95hts.bkt.clouddn.com/QQ%E5%9B%BE%E7%89%8720170105162803.png" alt=""></p>
+<p><img src="/2017/10/24/hexo3--域名配置/hexo1--hexo + github-pages博客的简单搭建/1.png" alt=""></p>
 <p>关于github的IP可以<a href="https://help.github.com/articles/troubleshooting-custom-domains/#dns-configuration-errors" target="_blank" rel="external">看这里</a>。  </p>
 <p>然后在你的本地站点目录里的source目录下添加一个CNAME文件，不带后缀，以文本编辑器打开CNAME，里面添加你的域名信息（不加http前缀），比如我的：<a href="http://pigpi.cn">pigpi.cn</a>。提交部署，现在使用域名应该就可以访问你的博客了。  </p>
 <h1 id="开始写一篇博客"><a href="#开始写一篇博客" class="headerlink" title="开始写一篇博客"></a>开始写一篇博客</h1><p>基本的搭建都好了，那么到底怎么写一篇博客呢？  </p>
@@ -897,9 +899,7 @@
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">plugins:</div><div class="line">  - hexo-generator-feed</div><div class="line">  - hexo-generator-sitemap</div><div class="line">  - hexo-generator-baidu-sitemap</div><div class="line">  </div><div class="line">baidusitemap:</div><div class="line">  path: baidusitemap.xml</div><div class="line">  </div><div class="line">sitemap:</div><div class="line">  path: sitemap.xml</div></pre></td></tr></table></figure>
 <p>经过我的测试，如果配置的话在生成时会一直报错，于是我去掉了，什么也不配置就行了，看来应该是hexo有内部的配置吧。  </p>
 <p>在你的博客根目录的public下面发现生成了sitemap.xml、baidusitemap.xml以及auto.xml就表示成功了。但这只是完成了第一步，还需要去百度站长进行登记。  </p>
-<h2 id="关于404页面"><a href="#关于404页面" class="headerlink" title="关于404页面"></a>关于404页面</h2><p>默认的404页面是github的，如果想自定义，需要把自己的404页面放在皮肤的source目录下即可。我采用的是腾讯公益的页面：  </p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;!DOCTYPE HTML&gt;</span> </div><div class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span> </div><div class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span> </div><div class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">"content-type"</span> <span class="attr">content</span>=<span class="string">"text/html;charset=utf-8;"</span>/&gt;</span> </div><div class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">"X-UA-Compatible"</span> <span class="attr">content</span>=<span class="string">"IE=edge,chrome=1"</span> /&gt;</span> </div><div class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"robots"</span> <span class="attr">content</span>=<span class="string">"all"</span> /&gt;</span> <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"robots"</span> <span class="attr">content</span>=<span class="string">"index,follow"</span>/&gt;</span> </div><div class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span> </div><div class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span> </div><div class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span> <span class="attr">src</span>=<span class="string">"http://www.qq.com/404/search_children.js"</span> <span class="attr">charset</span>=<span class="string">"utf-8"</span> <span class="attr">homePageUrl</span>=<span class="string">"your site url "</span> <span class="attr">homePageName</span>=<span class="string">"回到我的主页"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span> </div><div class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span> </div><div class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></div></pre></td></tr></table></figure>
-<h1 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h1><p>暂时就这样吧，其他的以后再说。</p>
+<h1 id=""><a href="#" class="headerlink" title=" "></a> </h1><p>暂时就这样吧，其他的以后再说。</p>
 <p>​    </p>
 
           
@@ -1555,7 +1555,7 @@ $ git clone https://github.com/iissnan/hexo-theme-next themes/next
 <li>安装node.js，hexo是基于这个的，用于生成静态页面。<a href="https://nodejs.org/en/" target="_blank" rel="external">点此下载</a>  </li>
 </ol>
 <h2 id="创建Github-Pages项目"><a href="#创建Github-Pages项目" class="headerlink" title="创建Github Pages项目"></a>创建Github Pages项目</h2><p>借用别人的一张图：  </p>
-<p><img src="http://ojae95hts.bkt.clouddn.com/17-1-5/52030435-file_1483603014029_720.png" alt="">  </p>
+<p><img src="/2017/01/04/hexo1--hexo + github-pages博客的简单搭建/1.png" alt="">  </p>
 <p>然后需要配置SSH密钥，可以让本地git项目与远程的github建立联系，让我们在本地写了代码之后直接通过git操作就可以实现本地代码库与Github代码库同步。这个我就不赘述了，可以参考下<a href="http://www.jianshu.com/p/15ae47eddc56" target="_blank" rel="external">这篇文章</a>的第三节。</p>
 <h2 id="hexo的安装和配置"><a href="#hexo的安装和配置" class="headerlink" title="hexo的安装和配置"></a>hexo的安装和配置</h2><h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p>找一个你喜欢的地方建个文件夹，进文件夹使用Git Bash敲命令</p>
 <pre><code>npm install -g hexo-cli  
@@ -1578,13 +1578,13 @@ npm install hexo-generator-sitemap@1 --save
 <p>然后需要做初始化：  </p>
 <pre><code>hexo init
 </code></pre><p>这样文件夹内就生成了博客的目录，如下：  </p>
-<p><img src="http://ojae95hts.bkt.clouddn.com/17-1-5/11101925-file_1483596354994_142c7.png" alt="aa">  </p>
+<p><img src="/2017/01/04/hexo1--hexo + github-pages博客的简单搭建/2.png" alt="aa">  </p>
 <p>deploy：执行hexo deploy命令部署到GitHub上的内容目录<br>public：执行hexo generate命令，输出的静态网页内容目录<br>scaffolds：layout模板文件目录，其中的md文件可以添加编辑<br>scripts：扩展脚本目录，这里可以自定义一些javascript脚本<br>source：文章源码目录，该目录下的markdown和html文件均会被hexo处理。该页面对应repo的根目录，404文件、favicon.ico文件，CNAME文件等都应该放这里，该目录下可新建页面目录。<br>_drafts：草稿文章<br>_posts：发布文章<br>themes：主题文件目录<br>_config.yml：全局配置文件，大多数的设置都在这里<br>package.json：应用程序数据，指明hexo的版本等信息，类似于一般软件中的关于按钮</p>
 <p>至此hexo也就安装好了，可以试着预览下，需要通过命令：  </p>
 <pre><code>hexo g   
 hexo s
 </code></pre><p>前者是生成静态页面，后者是启动服务，启动后通过<a href="http://localhost:4000/能够预览你的博客。" target="_blank" rel="external">http://localhost:4000/能够预览你的博客。</a>  </p>
-<p><img src="http://ojae95hts.bkt.clouddn.com/17-1-5/36871701-file_1483595890915_1424.png?imageView/2/w/619/q/90" alt="">  </p>
+<p><img src="/2017/01/04/hexo1--hexo + github-pages博客的简单搭建/3.png" alt="">  </p>
 <h3 id="hexo的常用命令和配置"><a href="#hexo的常用命令和配置" class="headerlink" title="hexo的常用命令和配置"></a>hexo的常用命令和配置</h3><p>关于你博客的设置可以分成2部分：  </p>
 <ol>
 <li>全局设置：在你博客目录下有一个文件名_config.yml，打开可以配置信息。  </li>
@@ -1610,7 +1610,7 @@ hexo s -g
 <pre><code>npm update -g hexo           #更新hexo
 </code></pre><h3 id="和Github-pages项目进行关联"><a href="#和Github-pages项目进行关联" class="headerlink" title="和Github pages项目进行关联"></a>和Github pages项目进行关联</h3><p>复制你的github pages项目的地址，例如我的是：<strong><a href="https://github.com/lanshu/lanshu.github.io.git" target="_blank" rel="external">https://github.com/lanshu/lanshu.github.io.git</a></strong>。  </p>
 <p>打开你的hexo文件夹的配置文件_config.yml，找到deploy节点，按照如下配置：  </p>
-<p><img src="http://ojae95hts.bkt.clouddn.com/17-1-5/7933302-file_1483603567187_17b95.png" alt="">  </p>
+<p><img src="/2017/01/04/hexo1--hexo + github-pages博客的简单搭建/4.png" alt="">  </p>
 <h1 id="开始写一篇博客"><a href="#开始写一篇博客" class="headerlink" title="开始写一篇博客"></a>开始写一篇博客</h1><p>基本的搭建都好了，那么到底怎么写一篇博客呢？  </p>
 <p>我也是新手，没有使用什么插件之类的，而是采用最简单的方法，并且我也不觉得多麻烦。  </p>
 <ol>

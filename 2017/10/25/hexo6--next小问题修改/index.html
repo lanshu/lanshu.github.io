@@ -81,21 +81,21 @@
 
 
 
-<meta name="description" content="1. blockquote 文本内容超出不自动换行next主题中，用 blockquote  标签圈出文本时，出现以下情况:–next小问题修改/outline.png) 解决办法： 需要修改皮肤的样式，路径如下：/you_site_folder/themes/next/source/css_common/scaffolding/base.styl。 修改blockquote 样式下 添加  wo">
+<meta name="description" content="1. blockquote 文本内容超出不自动换行next主题中，用 blockquote  标签圈出文本时，出现以下情况: 解决办法： 需要修改皮肤的样式，路径如下：/you_site_folder/themes/next/source/css_common/scaffolding/base.styl。 修改blockquote 样式下 添加  word-break: break-all; 12">
 <meta name="keywords" content="hexo,next,问题,bug">
 <meta property="og:type" content="article">
 <meta property="og:title" content="hexo(6)--next小问题修改">
 <meta property="og:url" content="http://pigpi.cn/2017/10/25/hexo6--next小问题修改/index.html">
 <meta property="og:site_name" content="pigpi">
-<meta property="og:description" content="1. blockquote 文本内容超出不自动换行next主题中，用 blockquote  标签圈出文本时，出现以下情况:–next小问题修改/outline.png) 解决办法： 需要修改皮肤的样式，路径如下：/you_site_folder/themes/next/source/css_common/scaffolding/base.styl。 修改blockquote 样式下 添加  wo">
+<meta property="og:description" content="1. blockquote 文本内容超出不自动换行next主题中，用 blockquote  标签圈出文本时，出现以下情况: 解决办法： 需要修改皮肤的样式，路径如下：/you_site_folder/themes/next/source/css_common/scaffolding/base.styl。 修改blockquote 样式下 添加  word-break: break-all; 12">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="http://pigpi.cn/2017/10/25/hexo6--next小问题修改/hexo(6">
-<meta property="og:image" content="http://pigpi.cn/2017/10/25/hexo6--next小问题修改/hexo(6">
-<meta property="og:updated_time" content="2017-10-25T03:03:56.400Z">
+<meta property="og:image" content="http://pigpi.cn/2017/10/25/hexo6--next小问题修改/outline.png">
+<meta property="og:image" content="http://pigpi.cn/2017/10/25/hexo6--next小问题修改/outline_final.png">
+<meta property="og:updated_time" content="2017-10-25T03:48:33.887Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hexo(6)--next小问题修改">
-<meta name="twitter:description" content="1. blockquote 文本内容超出不自动换行next主题中，用 blockquote  标签圈出文本时，出现以下情况:–next小问题修改/outline.png) 解决办法： 需要修改皮肤的样式，路径如下：/you_site_folder/themes/next/source/css_common/scaffolding/base.styl。 修改blockquote 样式下 添加  wo">
-<meta name="twitter:image" content="http://pigpi.cn/2017/10/25/hexo6--next小问题修改/hexo(6">
+<meta name="twitter:description" content="1. blockquote 文本内容超出不自动换行next主题中，用 blockquote  标签圈出文本时，出现以下情况: 解决办法： 需要修改皮肤的样式，路径如下：/you_site_folder/themes/next/source/css_common/scaffolding/base.styl。 修改blockquote 样式下 添加  word-break: break-all; 12">
+<meta name="twitter:image" content="http://pigpi.cn/2017/10/25/hexo6--next小问题修改/outline.png">
 
 
 
@@ -404,12 +404,12 @@
       
 
       
-        <h2 id="1-blockquote-文本内容超出不自动换行"><a href="#1-blockquote-文本内容超出不自动换行" class="headerlink" title="1. blockquote 文本内容超出不自动换行"></a>1. blockquote 文本内容超出不自动换行</h2><p>next主题中，用 blockquote  标签圈出文本时，出现以下情况:<img src="/2017/10/25/hexo6--next小问题修改/hexo(6" alt="">–next小问题修改/outline.png)</p>
+        <h2 id="1-blockquote-文本内容超出不自动换行"><a href="#1-blockquote-文本内容超出不自动换行" class="headerlink" title="1. blockquote 文本内容超出不自动换行"></a>1. blockquote 文本内容超出不自动换行</h2><p>next主题中，用 blockquote  标签圈出文本时，出现以下情况:<img src="/2017/10/25/hexo6--next小问题修改/outline.png" alt=""></p>
 <p>解决办法：</p>
 <p>需要修改皮肤的样式，路径如下：/you_site_folder/themes/next/source/css_common/scaffolding/base.styl。</p>
 <p>修改blockquote 样式下 添加  word-break: break-all;</p>
 <figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">blockquote</span> &#123;</div><div class="line">  <span class="attribute">margin</span>: <span class="number">0</span>;</div><div class="line">  <span class="attribute">padding</span>: <span class="number">0</span>;</div><div class="line">  <span class="attribute">word-break</span>: break-all;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p>效果如下：<img src="/2017/10/25/hexo6--next小问题修改/hexo(6" alt="">–next小问题修改/outline_final.png)</p>
+<p>效果如下：<img src="/2017/10/25/hexo6--next小问题修改/outline_final.png" alt=""></p>
 
       
     </div>
