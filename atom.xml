@@ -146,6 +146,37 @@
   </entry>
   
   <entry>
+    <title>某些技术选型</title>
+    <link href="http://pigpi.cn/2017/10/20/%E6%9F%90%E4%BA%9B%E6%8A%80%E6%9C%AF%E9%80%89%E5%9E%8B/"/>
+    <id>http://pigpi.cn/2017/10/20/某些技术选型/</id>
+    <published>2017-10-20T06:15:08.000Z</published>
+    <updated>2017-10-25T03:04:56.066Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="微服务"><a href="#微服务" class="headerlink" title="微服务"></a>微服务</h2><p>##DevOps</p><p>##自动化测试和部署</p><p>##搜索</p><p>##数据监控</p><p><img src="https://i.imgur.com/2GCYWgA.jpg" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;微服务&quot;&gt;&lt;a href=&quot;#微服务&quot; class=&quot;headerlink&quot; title=&quot;微服务&quot;&gt;&lt;/a&gt;微服务&lt;/h2&gt;&lt;p&gt;##DevOps&lt;/p&gt;
+&lt;p&gt;##自动化测试和部署&lt;/p&gt;
+&lt;p&gt;##搜索&lt;/p&gt;
+&lt;p&gt;##数据监控&lt;/p&gt;
+&lt;p&gt;&lt;img s
+      
+    
+    </summary>
+    
+      <category term="技术栈" scheme="http://pigpi.cn/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/"/>
+    
+    
+      <category term="工具" scheme="http://pigpi.cn/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+      <category term="框架技术" scheme="http://pigpi.cn/tags/%E6%A1%86%E6%9E%B6%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
+  
+  <entry>
     <title>方向</title>
     <link href="http://pigpi.cn/2017/10/20/%E6%96%B9%E5%90%91/"/>
     <id>http://pigpi.cn/2017/10/20/方向/</id>
@@ -177,33 +208,27 @@
   </entry>
   
   <entry>
-    <title>某些技术选型</title>
-    <link href="http://pigpi.cn/2017/10/20/%E6%9F%90%E4%BA%9B%E6%8A%80%E6%9C%AF%E9%80%89%E5%9E%8B/"/>
-    <id>http://pigpi.cn/2017/10/20/某些技术选型/</id>
-    <published>2017-10-20T06:15:08.000Z</published>
-    <updated>2017-10-25T02:37:55.112Z</updated>
+    <title>hexo(1)--hexo + github-pages博客的简单搭建</title>
+    <link href="http://pigpi.cn/2017/01/04/hexo(1)--hexo%20+%20github-pages%E5%8D%9A%E5%AE%A2%E7%9A%84%E7%AE%80%E5%8D%95%E6%90%AD%E5%BB%BA/"/>
+    <id>http://pigpi.cn/2017/01/04/hexo(1)--hexo + github-pages博客的简单搭建/</id>
+    <published>2017-01-04T06:15:08.000Z</published>
+    <updated>2017-10-25T02:46:17.720Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="微服务"><a href="#微服务" class="headerlink" title="微服务"></a>微服务</h2><p>##DevOps</p><p>##自动化测试和部署</p><p>##搜索</p><p>##数据监控</p><p><img src="https://i.imgur.com/2GCYWgA.jpg" alt=""></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="关于github-pages"><a href="#关于github-pages" class="headerlink" title="关于github pages"></a>关于github pages</h1><p>Github Pages 是github提供的一种服务，可以用来搭建个人页面，GitHub Pages分两种，一种是你的GitHub用户名建立的username.github.io这样的用户&amp;组织页（站），另一种是依附项目的pages。我们要搭建自己的博客使用的是第一种方式，这种方式每个用户名下面只能建立一个。  </p><p>使用github创建的博客是属于静态网站博客，都是以静态html形式展现，好处就是简单。</p><h1 id="关于hexo"><a href="#关于hexo" class="headerlink" title="关于hexo"></a>关于hexo</h1><blockquote><p>hexo是一款基于Node.js的静态博客框架。目前在GitHub上已有1375 star 和 219 fork。  </p><h3 id="特性"><a href="#特性" class="headerlink" title="特性"></a>特性</h3><ul><li><p>风一般的速度  </p><p>Hexo基于Node.js，支持多进程，几百篇文章也可以秒生成。  </p></li><li><p>流畅的撰写  </p><p>支持GitHub Flavored Markdown和所有Octopress的插件。  </p></li><li><p>扩展性  </p><p>Hexo支持EJS、Swig和Stylus。通过插件支持Haml、Jade和Less。  </p></li></ul></blockquote><p>也有很多类似的框架，比如Jekyll、Ghost等等，我反正一点也不了解，不在我的知识范围呢，使用hexo原因也很简单，搜索出来hexo和jekyll二选一，我觉得hexo更简洁一些而已（至少名字要好记）。  </p><h1 id="关于markdown"><a href="#关于markdown" class="headerlink" title="关于markdown"></a>关于markdown</h1><blockquote><p>Markdown 是一种用来写作的轻量级「标记语言」，它用简洁的语法代替排版，而不像一般我们用的字处理软件 Word 或 Pages 有大量的排版、字体设置。它使我们专心于码字，用「标记」语法，来代替常见的排版格式。</p></blockquote><p>虽然说是一种语言，其实学习成本很低，我在写这篇博客时也才是刚刚使用。使用hexo来写博客，需要使用markdown语言。 </p><p><a href="http://wowubuntu.com/markdown/#p" target="_blank" rel="external">Markdown 语法说明 (简体中文版) </a>  </p><h1 id="博客搭建步骤"><a href="#博客搭建步骤" class="headerlink" title="博客搭建步骤"></a>博客搭建步骤</h1><h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><ol><li>你必须有一个github账号。<a href="https://github.com/" target="_blank" rel="external">点此直达</a></li><li>你必须在电脑上安装了git工具，用于文章的上传。<a href="https://git-for-windows.github.io/" target="_blank" rel="external">点此下载</a></li><li>安装node.js，hexo是基于这个的，用于生成静态页面。<a href="https://nodejs.org/en/" target="_blank" rel="external">点此下载</a>  </li></ol><h2 id="创建Github-Pages项目"><a href="#创建Github-Pages项目" class="headerlink" title="创建Github Pages项目"></a>创建Github Pages项目</h2><p>借用别人的一张图：  </p><p><img src="http://ojae95hts.bkt.clouddn.com/17-1-5/52030435-file_1483603014029_720.png" alt="">  </p><p>然后需要配置SSH密钥，可以让本地git项目与远程的github建立联系，让我们在本地写了代码之后直接通过git操作就可以实现本地代码库与Github代码库同步。这个我就不赘述了，可以参考下<a href="http://www.jianshu.com/p/15ae47eddc56" target="_blank" rel="external">这篇文章</a>的第三节。</p><h2 id="hexo的安装和配置"><a href="#hexo的安装和配置" class="headerlink" title="hexo的安装和配置"></a>hexo的安装和配置</h2><h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p>找一个你喜欢的地方建个文件夹，进文件夹使用Git Bash敲命令</p><pre><code>npm install -g hexo-cli  </code></pre><p>此外有很多插件可以选择：  </p><pre><code>npm install hexo-generator-index --save  npm install hexo-generator-archive --save  npm install hexo-generator-category --save  npm install hexo-generator-tag --save  npm install hexo-server --save  npm install hexo-deployer-git --save  npm install hexo-deployer-heroku --save  npm install hexo-deployer-rsync --save  npm install hexo-deployer-openshift --save  npm install hexo-renderer-marked@0.2 --save  npm install hexo-renderer-stylus@0.2 --save  npm install hexo-generator-feed@1 --save  npm install hexo-generator-sitemap@1 --save</code></pre><p>反正我是不知道有什么用，直接全装上了。安装插件的时候也许会报错，试试看更新下npm的版本：   </p><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm i npm -g</div></pre></td></tr></table></figure><p>然后需要做初始化：  </p><pre><code>hexo init</code></pre><p>这样文件夹内就生成了博客的目录，如下：  </p><p><img src="http://ojae95hts.bkt.clouddn.com/17-1-5/11101925-file_1483596354994_142c7.png" alt="aa">  </p><p>deploy：执行hexo deploy命令部署到GitHub上的内容目录<br>public：执行hexo generate命令，输出的静态网页内容目录<br>scaffolds：layout模板文件目录，其中的md文件可以添加编辑<br>scripts：扩展脚本目录，这里可以自定义一些javascript脚本<br>source：文章源码目录，该目录下的markdown和html文件均会被hexo处理。该页面对应repo的根目录，404文件、favicon.ico文件，CNAME文件等都应该放这里，该目录下可新建页面目录。<br>_drafts：草稿文章<br>_posts：发布文章<br>themes：主题文件目录<br>_config.yml：全局配置文件，大多数的设置都在这里<br>package.json：应用程序数据，指明hexo的版本等信息，类似于一般软件中的关于按钮</p><p>至此hexo也就安装好了，可以试着预览下，需要通过命令：  </p><pre><code>hexo g   hexo s</code></pre><p>前者是生成静态页面，后者是启动服务，启动后通过<a href="http://localhost:4000/能够预览你的博客。" target="_blank" rel="external">http://localhost:4000/能够预览你的博客。</a>  </p><p><img src="http://ojae95hts.bkt.clouddn.com/17-1-5/36871701-file_1483595890915_1424.png?imageView/2/w/619/q/90" alt="">  </p><h3 id="hexo的常用命令和配置"><a href="#hexo的常用命令和配置" class="headerlink" title="hexo的常用命令和配置"></a>hexo的常用命令和配置</h3><p>关于你博客的设置可以分成2部分：  </p><ol><li>全局设置：在你博客目录下有一个文件名_config.yml，打开可以配置信息。  </li><li>局部设置：在你博客目录下 \themes\你使用的主题_config.yml，经常修改的应该是这个文件，因为直接关乎到博客的样子  </li></ol><p>常用命令都很简单：   </p><pre><code>Hexo常用命令：hexo new &quot;postName&quot;       #新建文章hexo new page &quot;pageName&quot;  #新建页面hexo generate             #生成静态页面至public目录hexo server               #开启预览访问端口（默认端口4000，&apos;ctrl + c&apos;关闭server）hexo deploy               #将.deploy目录部署到GitHub  hexo clean                #有任何问题都可以使用clean试试</code></pre><p>当然，如果每次输入那么长命令，那么一定想到用简写：  </p><pre><code>hexo n == hexo newhexo g == hexo generatehexo s == hexo serverhexo d == hexo deploy</code></pre><p>复合命令：  </p><pre><code>hexo d -ghexo s -g</code></pre><p>其他命令：  </p><pre><code>npm update -g hexo           #更新hexo</code></pre><h3 id="和Github-pages项目进行关联"><a href="#和Github-pages项目进行关联" class="headerlink" title="和Github pages项目进行关联"></a>和Github pages项目进行关联</h3><p>复制你的github pages项目的地址，例如我的是：<strong><a href="https://github.com/lanshu/lanshu.github.io.git" target="_blank" rel="external">https://github.com/lanshu/lanshu.github.io.git</a></strong>。  </p><p>打开你的hexo文件夹的配置文件_config.yml，找到deploy节点，按照如下配置：  </p><p><img src="http://ojae95hts.bkt.clouddn.com/17-1-5/7933302-file_1483603567187_17b95.png" alt="">  </p><h1 id="开始写一篇博客"><a href="#开始写一篇博客" class="headerlink" title="开始写一篇博客"></a>开始写一篇博客</h1><p>基本的搭建都好了，那么到底怎么写一篇博客呢？  </p><p>我也是新手，没有使用什么插件之类的，而是采用最简单的方法，并且我也不觉得多麻烦。  </p><ol><li>新建文章，hexo new “文章名称”，文章会生成在./source/_posts文件夹中  </li><li>采用可视化的markdown编辑器编写文章</li><li>生成并且部署  hexo d -g</li></ol><h2 id="关于可视化工具"><a href="#关于可视化工具" class="headerlink" title="关于可视化工具"></a>关于可视化工具</h2><p>我使用的是<a href="http://markdownpad.com/" target="_blank" rel="external">markdownpad</a>。  </p><blockquote><p>激活信息<br>邮箱地址：Soar360@live.com<br>密钥：  GBPduHjWfJU1mZqcPM3BikjYKF6xKhlKIys3i1MU2eJHqWGImDHzWdD6xhMNLGVpbP2M5SN6bnxn2kSE8qHqNY5QaaRxmO3YSMHxlv2EYpjdwLcPwfeTG7kUdnhKE0vVy4RidP6Y2wZ0q74f47fzsZo45JE2hfQBFi2O9Jldjp1mW8HUpTtLA2a5/sQytXJUQl/QKO0jUQY4pa5CCx20sV1ClOTZtAGngSOJtIOFXK599sBr5aIEFyH0K7H4BoNMiiDMnxt1rD8Vb/ikJdhGMMQr0R4B+L3nWU97eaVPTRKfWGDE8/eAgKzpGwrQQoDh+nzX1xoVQ8NAuH+s4UcSeQ==  </p></blockquote><p>​    </p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h2 id=&quot;微服务&quot;&gt;&lt;a href=&quot;#微服务&quot; class=&quot;headerlink&quot; title=&quot;微服务&quot;&gt;&lt;/a&gt;微服务&lt;/h2&gt;&lt;p&gt;##DevOps&lt;/p&gt;
-&lt;p&gt;##自动化测试和部署&lt;/p&gt;
-&lt;p&gt;##搜索&lt;/p&gt;
-&lt;p&gt;##数据监控&lt;/p&gt;
-&lt;p&gt;&lt;img s
+        &lt;h1 id=&quot;关于github-pages&quot;&gt;&lt;a href=&quot;#关于github-pages&quot; class=&quot;headerlink&quot; title=&quot;关于github pages&quot;&gt;&lt;/a&gt;关于github pages&lt;/h1&gt;&lt;p&gt;Github Pages 是github提供
       
     
     </summary>
     
-      <category term="技术栈" scheme="http://pigpi.cn/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/"/>
+      <category term="技术" scheme="http://pigpi.cn/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="工具" scheme="http://pigpi.cn/tags/%E5%B7%A5%E5%85%B7/"/>
-    
-      <category term="框架技术" scheme="http://pigpi.cn/tags/%E6%A1%86%E6%9E%B6%E6%8A%80%E6%9C%AF/"/>
+      <category term="博客相关" scheme="http://pigpi.cn/tags/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
     
   </entry>
   
@@ -222,31 +247,6 @@
       
         &lt;p&gt;想了一下，还是把搭建一个github pages博客作为第一篇文章，虽然没什么太大技术含量，但是比较琐碎，整理一下也好。  &lt;/p&gt;
 &lt;h1 id=&quot;关于github-pages&quot;&gt;&lt;a href=&quot;#关于github-pages&quot; class=&quot;headerlink&quot; t
-      
-    
-    </summary>
-    
-      <category term="技术" scheme="http://pigpi.cn/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="博客相关" scheme="http://pigpi.cn/tags/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>hexo(1)--hexo + github-pages博客的简单搭建</title>
-    <link href="http://pigpi.cn/2017/01/04/hexo(1)--hexo%20+%20github-pages%E5%8D%9A%E5%AE%A2%E7%9A%84%E7%AE%80%E5%8D%95%E6%90%AD%E5%BB%BA/"/>
-    <id>http://pigpi.cn/2017/01/04/hexo(1)--hexo + github-pages博客的简单搭建/</id>
-    <published>2017-01-04T06:15:08.000Z</published>
-    <updated>2017-10-25T02:46:17.720Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="关于github-pages"><a href="#关于github-pages" class="headerlink" title="关于github pages"></a>关于github pages</h1><p>Github Pages 是github提供的一种服务，可以用来搭建个人页面，GitHub Pages分两种，一种是你的GitHub用户名建立的username.github.io这样的用户&amp;组织页（站），另一种是依附项目的pages。我们要搭建自己的博客使用的是第一种方式，这种方式每个用户名下面只能建立一个。  </p><p>使用github创建的博客是属于静态网站博客，都是以静态html形式展现，好处就是简单。</p><h1 id="关于hexo"><a href="#关于hexo" class="headerlink" title="关于hexo"></a>关于hexo</h1><blockquote><p>hexo是一款基于Node.js的静态博客框架。目前在GitHub上已有1375 star 和 219 fork。  </p><h3 id="特性"><a href="#特性" class="headerlink" title="特性"></a>特性</h3><ul><li><p>风一般的速度  </p><p>Hexo基于Node.js，支持多进程，几百篇文章也可以秒生成。  </p></li><li><p>流畅的撰写  </p><p>支持GitHub Flavored Markdown和所有Octopress的插件。  </p></li><li><p>扩展性  </p><p>Hexo支持EJS、Swig和Stylus。通过插件支持Haml、Jade和Less。  </p></li></ul></blockquote><p>也有很多类似的框架，比如Jekyll、Ghost等等，我反正一点也不了解，不在我的知识范围呢，使用hexo原因也很简单，搜索出来hexo和jekyll二选一，我觉得hexo更简洁一些而已（至少名字要好记）。  </p><h1 id="关于markdown"><a href="#关于markdown" class="headerlink" title="关于markdown"></a>关于markdown</h1><blockquote><p>Markdown 是一种用来写作的轻量级「标记语言」，它用简洁的语法代替排版，而不像一般我们用的字处理软件 Word 或 Pages 有大量的排版、字体设置。它使我们专心于码字，用「标记」语法，来代替常见的排版格式。</p></blockquote><p>虽然说是一种语言，其实学习成本很低，我在写这篇博客时也才是刚刚使用。使用hexo来写博客，需要使用markdown语言。 </p><p><a href="http://wowubuntu.com/markdown/#p" target="_blank" rel="external">Markdown 语法说明 (简体中文版) </a>  </p><h1 id="博客搭建步骤"><a href="#博客搭建步骤" class="headerlink" title="博客搭建步骤"></a>博客搭建步骤</h1><h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><ol><li>你必须有一个github账号。<a href="https://github.com/" target="_blank" rel="external">点此直达</a></li><li>你必须在电脑上安装了git工具，用于文章的上传。<a href="https://git-for-windows.github.io/" target="_blank" rel="external">点此下载</a></li><li>安装node.js，hexo是基于这个的，用于生成静态页面。<a href="https://nodejs.org/en/" target="_blank" rel="external">点此下载</a>  </li></ol><h2 id="创建Github-Pages项目"><a href="#创建Github-Pages项目" class="headerlink" title="创建Github Pages项目"></a>创建Github Pages项目</h2><p>借用别人的一张图：  </p><p><img src="http://ojae95hts.bkt.clouddn.com/17-1-5/52030435-file_1483603014029_720.png" alt="">  </p><p>然后需要配置SSH密钥，可以让本地git项目与远程的github建立联系，让我们在本地写了代码之后直接通过git操作就可以实现本地代码库与Github代码库同步。这个我就不赘述了，可以参考下<a href="http://www.jianshu.com/p/15ae47eddc56" target="_blank" rel="external">这篇文章</a>的第三节。</p><h2 id="hexo的安装和配置"><a href="#hexo的安装和配置" class="headerlink" title="hexo的安装和配置"></a>hexo的安装和配置</h2><h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p>找一个你喜欢的地方建个文件夹，进文件夹使用Git Bash敲命令</p><pre><code>npm install -g hexo-cli  </code></pre><p>此外有很多插件可以选择：  </p><pre><code>npm install hexo-generator-index --save  npm install hexo-generator-archive --save  npm install hexo-generator-category --save  npm install hexo-generator-tag --save  npm install hexo-server --save  npm install hexo-deployer-git --save  npm install hexo-deployer-heroku --save  npm install hexo-deployer-rsync --save  npm install hexo-deployer-openshift --save  npm install hexo-renderer-marked@0.2 --save  npm install hexo-renderer-stylus@0.2 --save  npm install hexo-generator-feed@1 --save  npm install hexo-generator-sitemap@1 --save</code></pre><p>反正我是不知道有什么用，直接全装上了。安装插件的时候也许会报错，试试看更新下npm的版本：   </p><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm i npm -g</div></pre></td></tr></table></figure><p>然后需要做初始化：  </p><pre><code>hexo init</code></pre><p>这样文件夹内就生成了博客的目录，如下：  </p><p><img src="http://ojae95hts.bkt.clouddn.com/17-1-5/11101925-file_1483596354994_142c7.png" alt="aa">  </p><p>deploy：执行hexo deploy命令部署到GitHub上的内容目录<br>public：执行hexo generate命令，输出的静态网页内容目录<br>scaffolds：layout模板文件目录，其中的md文件可以添加编辑<br>scripts：扩展脚本目录，这里可以自定义一些javascript脚本<br>source：文章源码目录，该目录下的markdown和html文件均会被hexo处理。该页面对应repo的根目录，404文件、favicon.ico文件，CNAME文件等都应该放这里，该目录下可新建页面目录。<br>_drafts：草稿文章<br>_posts：发布文章<br>themes：主题文件目录<br>_config.yml：全局配置文件，大多数的设置都在这里<br>package.json：应用程序数据，指明hexo的版本等信息，类似于一般软件中的关于按钮</p><p>至此hexo也就安装好了，可以试着预览下，需要通过命令：  </p><pre><code>hexo g   hexo s</code></pre><p>前者是生成静态页面，后者是启动服务，启动后通过<a href="http://localhost:4000/能够预览你的博客。" target="_blank" rel="external">http://localhost:4000/能够预览你的博客。</a>  </p><p><img src="http://ojae95hts.bkt.clouddn.com/17-1-5/36871701-file_1483595890915_1424.png?imageView/2/w/619/q/90" alt="">  </p><h3 id="hexo的常用命令和配置"><a href="#hexo的常用命令和配置" class="headerlink" title="hexo的常用命令和配置"></a>hexo的常用命令和配置</h3><p>关于你博客的设置可以分成2部分：  </p><ol><li>全局设置：在你博客目录下有一个文件名_config.yml，打开可以配置信息。  </li><li>局部设置：在你博客目录下 \themes\你使用的主题_config.yml，经常修改的应该是这个文件，因为直接关乎到博客的样子  </li></ol><p>常用命令都很简单：   </p><pre><code>Hexo常用命令：hexo new &quot;postName&quot;       #新建文章hexo new page &quot;pageName&quot;  #新建页面hexo generate             #生成静态页面至public目录hexo server               #开启预览访问端口（默认端口4000，&apos;ctrl + c&apos;关闭server）hexo deploy               #将.deploy目录部署到GitHub  hexo clean                #有任何问题都可以使用clean试试</code></pre><p>当然，如果每次输入那么长命令，那么一定想到用简写：  </p><pre><code>hexo n == hexo newhexo g == hexo generatehexo s == hexo serverhexo d == hexo deploy</code></pre><p>复合命令：  </p><pre><code>hexo d -ghexo s -g</code></pre><p>其他命令：  </p><pre><code>npm update -g hexo           #更新hexo</code></pre><h3 id="和Github-pages项目进行关联"><a href="#和Github-pages项目进行关联" class="headerlink" title="和Github pages项目进行关联"></a>和Github pages项目进行关联</h3><p>复制你的github pages项目的地址，例如我的是：<strong><a href="https://github.com/lanshu/lanshu.github.io.git" target="_blank" rel="external">https://github.com/lanshu/lanshu.github.io.git</a></strong>。  </p><p>打开你的hexo文件夹的配置文件_config.yml，找到deploy节点，按照如下配置：  </p><p><img src="http://ojae95hts.bkt.clouddn.com/17-1-5/7933302-file_1483603567187_17b95.png" alt="">  </p><h1 id="开始写一篇博客"><a href="#开始写一篇博客" class="headerlink" title="开始写一篇博客"></a>开始写一篇博客</h1><p>基本的搭建都好了，那么到底怎么写一篇博客呢？  </p><p>我也是新手，没有使用什么插件之类的，而是采用最简单的方法，并且我也不觉得多麻烦。  </p><ol><li>新建文章，hexo new “文章名称”，文章会生成在./source/_posts文件夹中  </li><li>采用可视化的markdown编辑器编写文章</li><li>生成并且部署  hexo d -g</li></ol><h2 id="关于可视化工具"><a href="#关于可视化工具" class="headerlink" title="关于可视化工具"></a>关于可视化工具</h2><p>我使用的是<a href="http://markdownpad.com/" target="_blank" rel="external">markdownpad</a>。  </p><blockquote><p>激活信息<br>邮箱地址：Soar360@live.com<br>密钥：  GBPduHjWfJU1mZqcPM3BikjYKF6xKhlKIys3i1MU2eJHqWGImDHzWdD6xhMNLGVpbP2M5SN6bnxn2kSE8qHqNY5QaaRxmO3YSMHxlv2EYpjdwLcPwfeTG7kUdnhKE0vVy4RidP6Y2wZ0q74f47fzsZo45JE2hfQBFi2O9Jldjp1mW8HUpTtLA2a5/sQytXJUQl/QKO0jUQY4pa5CCx20sV1ClOTZtAGngSOJtIOFXK599sBr5aIEFyH0K7H4BoNMiiDMnxt1rD8Vb/ikJdhGMMQr0R4B+L3nWU97eaVPTRKfWGDE8/eAgKzpGwrQQoDh+nzX1xoVQ8NAuH+s4UcSeQ==  </p></blockquote><p>​    </p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;关于github-pages&quot;&gt;&lt;a href=&quot;#关于github-pages&quot; class=&quot;headerlink&quot; title=&quot;关于github pages&quot;&gt;&lt;/a&gt;关于github pages&lt;/h1&gt;&lt;p&gt;Github Pages 是github提供
       
     
     </summary>
