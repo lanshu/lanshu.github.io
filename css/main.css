@@ -2014,7 +2014,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #7a81f6;
+  background: #8b662a;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3109,9 +3109,6 @@ hr {
 }
 .ds-top-threads li a:hover {
   border-left: 8px solid #4d768c;
-}
-.header {
-  background: url("/images/header-bk.jpg");
 }
 .site-meta {
   float: none;
