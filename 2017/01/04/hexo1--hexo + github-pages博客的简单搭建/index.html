@@ -84,7 +84,7 @@
 <meta name="description" content="关于github pagesGithub Pages 是github提供的一种服务，可以用来搭建个人页面，GitHub Pages分两种，一种是你的GitHub用户名建立的username.github.io这样的用户&amp;amp;组织页（站），另一种是依附项目的pages。我们要搭建自己的博客使用的是第一种方式，这种方式每个用户名下面只能建立一个。   使用github创建的博客是属于静态网站博客，">
 <meta name="keywords" content="github pages hexo 博客">
 <meta property="og:type" content="article">
-<meta property="og:title" content="hexo(1)--hexo + github-pages博客的简单搭建">
+<meta property="og:title" content="hexo1--hexo + github-pages博客的简单搭建">
 <meta property="og:url" content="http://pigpi.cn/2017/01/04/hexo1--hexo + github-pages博客的简单搭建/index.html">
 <meta property="og:site_name" content="pigpi">
 <meta property="og:description" content="关于github pagesGithub Pages 是github提供的一种服务，可以用来搭建个人页面，GitHub Pages分两种，一种是你的GitHub用户名建立的username.github.io这样的用户&amp;amp;组织页（站），另一种是依附项目的pages。我们要搭建自己的博客使用的是第一种方式，这种方式每个用户名下面只能建立一个。   使用github创建的博客是属于静态网站博客，">
@@ -93,9 +93,9 @@
 <meta property="og:image" content="http://pigpi.cn/2017/01/04/hexo1--hexo%20+%20github-pages博客的简单搭建/2.png">
 <meta property="og:image" content="http://pigpi.cn/2017/01/04/hexo1--hexo%20+%20github-pages博客的简单搭建/3.png">
 <meta property="og:image" content="http://pigpi.cn/2017/01/04/hexo1--hexo%20+%20github-pages博客的简单搭建/4.png">
-<meta property="og:updated_time" content="2017-10-25T03:44:20.314Z">
+<meta property="og:updated_time" content="2017-10-26T01:56:39.549Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="hexo(1)--hexo + github-pages博客的简单搭建">
+<meta name="twitter:title" content="hexo1--hexo + github-pages博客的简单搭建">
 <meta name="twitter:description" content="关于github pagesGithub Pages 是github提供的一种服务，可以用来搭建个人页面，GitHub Pages分两种，一种是你的GitHub用户名建立的username.github.io这样的用户&amp;amp;组织页（站），另一种是依附项目的pages。我们要搭建自己的博客使用的是第一种方式，这种方式每个用户名下面只能建立一个。   使用github创建的博客是属于静态网站博客，">
 <meta name="twitter:image" content="http://pigpi.cn/2017/01/04/hexo1--hexo%20+%20github-pages博客的简单搭建/1.png">
 
@@ -133,7 +133,7 @@
 
 
 
-  <title>hexo(1)--hexo + github-pages博客的简单搭建 | pigpi</title>
+  <title>hexo1--hexo + github-pages博客的简单搭建 | pigpi</title>
   
 
 
@@ -324,7 +324,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">hexo(1)--hexo + github-pages博客的简单搭建</h1>
+          <h1 class="post-title" itemprop="name headline">hexo1--hexo + github-pages博客的简单搭建</h1>
         
 
         <div class="post-meta">
@@ -359,8 +359,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/技术/" itemprop="url" rel="index">
-                    <span itemprop="name">技术</span>
+                  <a href="/categories/hexo建博/" itemprop="url" rel="index">
+                    <span itemprop="name">hexo建博</span>
                   </a>
                 </span>
 
@@ -390,6 +390,34 @@
           
 
           
+           <div class="post-wordcount">
+             
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-edit"></i>
+               </span>
+                 
+                   <span class="post-meta-item-text">字数统计</span>
+                 
+                   <span title="字数统计" }}">
+                     1,379 字
+                   </span>
+             
+             
+               <span class="post-meta-divider">|</span>
+             
+             
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-clock-o"></i>
+               </span>
+                 
+                   <span class="post-meta-item-text">阅读时长</span>
+                 
+                   <span title="阅读时长" }}">
+                     5 分钟
+                   </span>
+             
+           </div>
+         
 
           
 
@@ -408,6 +436,7 @@
       
         <h1 id="关于github-pages"><a href="#关于github-pages" class="headerlink" title="关于github pages"></a>关于github pages</h1><p>Github Pages 是github提供的一种服务，可以用来搭建个人页面，GitHub Pages分两种，一种是你的GitHub用户名建立的username.github.io这样的用户&amp;组织页（站），另一种是依附项目的pages。我们要搭建自己的博客使用的是第一种方式，这种方式每个用户名下面只能建立一个。  </p>
 <p>使用github创建的博客是属于静态网站博客，都是以静态html形式展现，好处就是简单。</p>
+<a id="more"></a>
 <h1 id="关于hexo"><a href="#关于hexo" class="headerlink" title="关于hexo"></a>关于hexo</h1><blockquote>
 <p>hexo是一款基于Node.js的静态博客框架。目前在GitHub上已有1375 star 和 219 fork。  </p>
 <h3 id="特性"><a href="#特性" class="headerlink" title="特性"></a>特性</h3><ul>
@@ -490,24 +519,50 @@ hexo s -g
 </code></pre><h3 id="和Github-pages项目进行关联"><a href="#和Github-pages项目进行关联" class="headerlink" title="和Github pages项目进行关联"></a>和Github pages项目进行关联</h3><p>复制你的github pages项目的地址，例如我的是：<strong><a href="https://github.com/lanshu/lanshu.github.io.git" target="_blank" rel="external">https://github.com/lanshu/lanshu.github.io.git</a></strong>。  </p>
 <p>打开你的hexo文件夹的配置文件_config.yml，找到deploy节点，按照如下配置：  </p>
 <p><img src="/2017/01/04/hexo1--hexo + github-pages博客的简单搭建/4.png" alt="">  </p>
-<h1 id="开始写一篇博客"><a href="#开始写一篇博客" class="headerlink" title="开始写一篇博客"></a>开始写一篇博客</h1><p>基本的搭建都好了，那么到底怎么写一篇博客呢？  </p>
-<p>我也是新手，没有使用什么插件之类的，而是采用最简单的方法，并且我也不觉得多麻烦。  </p>
-<ol>
-<li>新建文章，hexo new “文章名称”，文章会生成在./source/_posts文件夹中  </li>
-<li>采用可视化的markdown编辑器编写文章</li>
-<li>生成并且部署  hexo d -g</li>
-</ol>
-<h2 id="关于可视化工具"><a href="#关于可视化工具" class="headerlink" title="关于可视化工具"></a>关于可视化工具</h2><p>我使用的是<a href="http://markdownpad.com/" target="_blank" rel="external">markdownpad</a>。  </p>
-<blockquote>
-<p>激活信息<br>邮箱地址：Soar360@live.com<br>密钥：  GBPduHjWfJU1mZqcPM3BikjYKF6xKhlKIys3i1MU2eJHqWGImDHzWdD6xhMNLGVpbP2M5SN6bnxn2kSE8qHqNY5QaaRxmO3YSMHxlv2EYpjdwLcPwfeTG7kUdnhKE0vVy4RidP6Y2wZ0q74f47fzsZo45JE2hfQBFi2O9Jldjp1mW8HUpTtLA2a5/sQytXJUQl/QKO0jUQY4pa5CCx20sV1ClOTZtAGngSOJtIOFXK599sBr5aIEFyH0K7H4BoNMiiDMnxt1rD8Vb/ikJdhGMMQr0R4B+L3nWU97eaVPTRKfWGDE8/eAgKzpGwrQQoDh+nzX1xoVQ8NAuH+s4UcSeQ==  </p>
-</blockquote>
-<p>​    </p>
+<p>到此，最初始的博客就搭建完成了并能通过github pages的地址可以访问到。</p>
 
       
     </div>
     
     
     
+
+	
+      <div>
+        
+<div class="my_post_copyright">
+  <script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
+
+  <!-- JS库 sweetalert 可修改路径 -->
+  <script type="text/javascript" src="http://jslibs.wuxubj.cn/sweetalert_mini/jquery-1.7.1.min.js"></script>
+  <script src="http://jslibs.wuxubj.cn/sweetalert_mini/sweetalert.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="http://jslibs.wuxubj.cn/sweetalert_mini/sweetalert.mini.css">
+  <p><span>本文标题:</span><a href="/2017/01/04/hexo1--hexo + github-pages博客的简单搭建/">hexo1--hexo + github-pages博客的简单搭建</a></p>
+  <p><span>文章作者:</span><a href="/" title="访问 pigpi 的个人博客">pigpi</a></p>
+  <p><span>发布时间:</span>2017年01月04日 - 14:01</p>
+  <p><span>最后更新:</span>2017年10月26日 - 09:10</p>
+  <p><span>原始链接:</span><a href="/2017/01/04/hexo1--hexo + github-pages博客的简单搭建/" title="hexo1--hexo + github-pages博客的简单搭建">http://pigpi.cn/2017/01/04/hexo1--hexo + github-pages博客的简单搭建/</a>
+    <span class="copy-path"  title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="http://pigpi.cn/2017/01/04/hexo1--hexo + github-pages博客的简单搭建/"  aria-label="复制成功！"></i></span>
+  </p>
+  <p><span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">署名-非商业性使用-禁止演绎 4.0 国际</a> 转载请保留原文链接及作者。</p>  
+</div>
+<script> 
+    var clipboard = new Clipboard('.fa-clipboard');
+    clipboard.on('success', $(function(){
+      $(".fa-clipboard").click(function(){
+        swal({   
+          title: "",   
+          text: '复制成功',   
+          html: false,
+          timer: 500,   
+          showConfirmButton: false
+        });
+      });
+    }));  
+</script>
+
+      </div>
+	
 
     
 
@@ -548,7 +603,7 @@ hexo s -g
       
         <div class="post-tags">
           
-            <a href="/tags/博客相关/" rel="tag"># 博客相关</a>
+            <a href="/tags/hexo/" rel="tag"># hexo</a>
           
         </div>
       
@@ -561,8 +616,8 @@ hexo s -g
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2017/01/04/如何简单搭建一个github-pages博客/" rel="next" title="如何简单搭建一个github pages + hexo博客">
-                <i class="fa fa-chevron-left"></i> 如何简单搭建一个github pages + hexo博客
+              <a href="/2017/01/04/路开始的地方/" rel="next" title="路开始的地方">
+                <i class="fa fa-chevron-left"></i> 路开始的地方
               </a>
             
           </div>
@@ -631,7 +686,7 @@ var jiathis_config={
   
     <div class="comments" id="comments">
       <div class="ds-thread" data-thread-key="2017/01/04/hexo1--hexo + github-pages博客的简单搭建/"
-           data-title="hexo(1)--hexo + github-pages博客的简单搭建" data-url="http://pigpi.cn/2017/01/04/hexo1--hexo + github-pages博客的简单搭建/">
+           data-title="hexo1--hexo + github-pages博客的简单搭建" data-url="http://pigpi.cn/2017/01/04/hexo1--hexo + github-pages博客的简单搭建/">
       </div>
     </div>
 
@@ -687,7 +742,7 @@ var jiathis_config={
               
                 <a href="/archives">
               
-                  <span class="site-state-item-count">10</span>
+                  <span class="site-state-item-count">9</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -698,7 +753,7 @@ var jiathis_config={
               
               <div class="site-state-item site-state-categories">
                 
-                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-count">3</span>
                   <span class="site-state-item-name">分类</span>
                 
               </div>
@@ -709,7 +764,7 @@ var jiathis_config={
               
               <div class="site-state-item site-state-tags">
                 
-                  <span class="site-state-item-count">6</span>
+                  <span class="site-state-item-count">5</span>
                   <span class="site-state-item-name">标签</span>
                 
               </div>
@@ -759,7 +814,7 @@ var jiathis_config={
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#关于github-pages"><span class="nav-number">1.</span> <span class="nav-text">关于github pages</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#关于hexo"><span class="nav-number">2.</span> <span class="nav-text">关于hexo</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#特性"><span class="nav-number">2.0.1.</span> <span class="nav-text">特性</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#关于markdown"><span class="nav-number">3.</span> <span class="nav-text">关于markdown</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#博客搭建步骤"><span class="nav-number">4.</span> <span class="nav-text">博客搭建步骤</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#准备工作"><span class="nav-number">4.1.</span> <span class="nav-text">准备工作</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#创建Github-Pages项目"><span class="nav-number">4.2.</span> <span class="nav-text">创建Github Pages项目</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#hexo的安装和配置"><span class="nav-number">4.3.</span> <span class="nav-text">hexo的安装和配置</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#安装"><span class="nav-number">4.3.1.</span> <span class="nav-text">安装</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#hexo的常用命令和配置"><span class="nav-number">4.3.2.</span> <span class="nav-text">hexo的常用命令和配置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#和Github-pages项目进行关联"><span class="nav-number">4.3.3.</span> <span class="nav-text">和Github pages项目进行关联</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#开始写一篇博客"><span class="nav-number">5.</span> <span class="nav-text">开始写一篇博客</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#关于可视化工具"><span class="nav-number">5.1.</span> <span class="nav-text">关于可视化工具</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#关于github-pages"><span class="nav-number">1.</span> <span class="nav-text">关于github pages</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#关于hexo"><span class="nav-number">2.</span> <span class="nav-text">关于hexo</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#特性"><span class="nav-number">2.0.1.</span> <span class="nav-text">特性</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#关于markdown"><span class="nav-number">3.</span> <span class="nav-text">关于markdown</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#博客搭建步骤"><span class="nav-number">4.</span> <span class="nav-text">博客搭建步骤</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#准备工作"><span class="nav-number">4.1.</span> <span class="nav-text">准备工作</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#创建Github-Pages项目"><span class="nav-number">4.2.</span> <span class="nav-text">创建Github Pages项目</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#hexo的安装和配置"><span class="nav-number">4.3.</span> <span class="nav-text">hexo的安装和配置</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#安装"><span class="nav-number">4.3.1.</span> <span class="nav-text">安装</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#hexo的常用命令和配置"><span class="nav-number">4.3.2.</span> <span class="nav-text">hexo的常用命令和配置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#和Github-pages项目进行关联"><span class="nav-number">4.3.3.</span> <span class="nav-text">和Github pages项目进行关联</span></a></li></ol></li></ol></li></ol></div>
             
 
           </div>
@@ -786,8 +841,18 @@ var jiathis_config={
   <span class="author" itemprop="copyrightHolder">pigpi</span>
 
   
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+    
+      <span class="post-meta-item-text">Site words total count&#58;</span>
+    
+    <span title="Site words total count">4.4k</span>
+  
 </div>
 
+<!--
 
   <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
 
@@ -798,6 +863,8 @@ var jiathis_config={
 
 
   <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Mist</a> v5.1.3</div>
+
+-->
 
 
 

@@ -1963,7 +1963,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffc832;
+  background: #e888d9;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3097,7 +3097,6 @@ hr {
 }
 .site-author-name {
   margin: 48px 0 0;
-  color: #090909;
   font-family: 'Comic Sans MS', sans-serif;
 }
 .links-of-blogroll {
@@ -3173,4 +3172,7 @@ a {
 }
 .feed-link a {
   border: 0px solid #fc6423;
+}
+a:hover {
+  color: #fc6423;
 }
