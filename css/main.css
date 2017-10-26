@@ -2014,7 +2014,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #652ee9;
+  background: #7a81f6;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3125,7 +3125,6 @@ hr {
 }
 .menu .menu-item a {
   font-size: 14px;
-  color: #fff;
   border-radius: 4px;
 }
 .site-meta {
@@ -3135,7 +3134,6 @@ hr {
 .site-meta .site-title {
   font-size: 28px;
   font-family: 'Comic Sans MS', sans-serif;
-  color: #fff;
 }
 .footer {
   background: none;
