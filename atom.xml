@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://pigpi.cn/"/>
-  <updated>2017-10-26T01:57:09.287Z</updated>
+  <updated>2017-10-26T02:03:54.038Z</updated>
   <id>http://pigpi.cn/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://pigpi.cn/2017/10/25/hexo7--next%E5%B0%8F%E9%97%AE%E9%A2%98%E4%BF%AE%E6%94%B9/"/>
     <id>http://pigpi.cn/2017/10/25/hexo7--next小问题修改/</id>
     <published>2017-10-25T06:15:08.000Z</published>
-    <updated>2017-10-26T01:57:09.287Z</updated>
+    <updated>2017-10-26T02:03:54.038Z</updated>
     
     <content type="html"><![CDATA[<h1 id="blockquote-文本内容超出不自动换行"><a href="#blockquote-文本内容超出不自动换行" class="headerlink" title="blockquote 文本内容超出不自动换行"></a>blockquote 文本内容超出不自动换行</h1><p>next主题中，用 blockquote  标签圈出文本时，出现以下情况:<img src="/2017/10/25/hexo7--next小问题修改/outline.png" alt=""></p><p>解决办法：</p><p>需要修改皮肤的样式，路径如下：/you_site_folder/themes/next/source/css_common/scaffolding/base.styl。</p><a id="more"></a><p>修改blockquote 样式下 添加  word-break: break-all;</p><figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">blockquote</span> &#123;</div><div class="line">  <span class="attribute">margin</span>: <span class="number">0</span>;</div><div class="line">  <span class="attribute">padding</span>: <span class="number">0</span>;</div><div class="line">  <span class="attribute">word-break</span>: break-all;</div><div class="line">&#125;</div></pre></td></tr></table></figure><p>效果如下：<img src="/2017/10/25/hexo7--next小问题修改/outline_final.png" alt=""></p>]]></content>
     
