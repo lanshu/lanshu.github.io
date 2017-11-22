@@ -369,16 +369,6 @@
 
           
             
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/2017/10/25/hexo5--hexo辅助插件和第三方服务/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/10/25/hexo5--hexo辅助插件和第三方服务/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
           
 
           
@@ -603,13 +593,7 @@ var jiathis_config={
           
 
   
-    <div class="comments" id="comments">
-      <div class="ds-thread" data-thread-key="2017/10/25/hexo5--hexo辅助插件和第三方服务/"
-           data-title="hexo5--hexo辅助插件和第三方服务" data-url="http://pigpi.cn/2017/10/25/hexo5--hexo辅助插件和第三方服务/">
-      </div>
-    </div>
-
-  
+	<div id="gitalk-container"></div>
 
 
         </div>
@@ -907,28 +891,24 @@ var jiathis_config={
 
   
 
-  
-    
-  
-
-  <script type="text/javascript">
-    var duoshuoQuery = {short_name:"pigpi"};
-    (function() {
-      var ds = document.createElement('script');
-      ds.type = 'text/javascript';ds.async = true;
-      ds.id = 'duoshuo-script';
-      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-      ds.charset = 'UTF-8';
-      (document.getElementsByTagName('head')[0]
-      || document.getElementsByTagName('body')[0]).appendChild(ds);
-    })();
-  </script>
 
   
-    
-    
-    <script src="/lib/ua-parser-js/dist/ua-parser.min.js?v=0.7.9"></script>
-    <script src="/js/src/hook-duoshuo.js"></script>
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
   
 
 
@@ -942,15 +922,9 @@ var jiathis_config={
 
 
 
-
-
-
-
-
-
-  <link rel="stylesheet" href="/css/gitalk.css">
+  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
   
-  <script src="/js/src/gitalk.min.js"></script>
+  <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
    <script type="text/javascript">
 		var gitalk = new Gitalk({
 		  clientID: 'b26e920deae1d6e619a3',
