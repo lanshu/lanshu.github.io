@@ -610,7 +610,6 @@ var jiathis_config={
   
 
 
-
         </div>
         
           
@@ -945,6 +944,23 @@ var jiathis_config={
 
 
 
+
+
+  <link rel="stylesheet" href="/css/gitalk.css">
+  
+  <script src="/js/src/gitalk.min.js"></script>
+   <script type="text/javascript">
+		var gitalk = new Gitalk({
+		  clientID: 'b26e920deae1d6e619a3',
+		  clientSecret: '52674899a53ed624cfeb94eaf9a0460ccb57e5e8',
+		  repo: 'pigpi_comment',
+		  owner: 'lanshu',
+		  admin: ['pigpi'], 
+		  id: location.pathname,
+		  distractionFreeMode: 'true'
+		})
+		gitalk.render('gitalk-container')           
+       </script>
 
 
   
