@@ -5,9 +5,9 @@
   <subtitle>to be a better man</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://pigpi.cn/"/>
+  <link href="http://www.pigpi.cn/"/>
   <updated>2017-10-26T02:03:54.038Z</updated>
-  <id>http://pigpi.cn/</id>
+  <id>http://www.pigpi.cn/</id>
   
   <author>
     <name>pigpi</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>hexo7--next小问题修改</title>
-    <link href="http://pigpi.cn/2017/10/25/hexo7--next%E5%B0%8F%E9%97%AE%E9%A2%98%E4%BF%AE%E6%94%B9/"/>
-    <id>http://pigpi.cn/2017/10/25/hexo7--next小问题修改/</id>
+    <link href="http://www.pigpi.cn/2017/10/25/hexo7--next%E5%B0%8F%E9%97%AE%E9%A2%98%E4%BF%AE%E6%94%B9/"/>
+    <id>http://www.pigpi.cn/2017/10/25/hexo7--next小问题修改/</id>
     <published>2017-10-25T06:15:08.000Z</published>
     <updated>2017-10-26T02:03:54.038Z</updated>
     
@@ -33,19 +33,19 @@
     
     </summary>
     
-      <category term="hexo建博" scheme="http://pigpi.cn/categories/hexo%E5%BB%BA%E5%8D%9A/"/>
+      <category term="hexo建博" scheme="http://www.pigpi.cn/categories/hexo%E5%BB%BA%E5%8D%9A/"/>
     
     
-      <category term="hexo" scheme="http://pigpi.cn/tags/hexo/"/>
+      <category term="hexo" scheme="http://www.pigpi.cn/tags/hexo/"/>
     
-      <category term="next" scheme="http://pigpi.cn/tags/next/"/>
+      <category term="next" scheme="http://www.pigpi.cn/tags/next/"/>
     
   </entry>
   
   <entry>
     <title>hexo6--next美化整理</title>
-    <link href="http://pigpi.cn/2017/10/25/hexo6--next%E7%BE%8E%E5%8C%96%E6%95%B4%E7%90%86/"/>
-    <id>http://pigpi.cn/2017/10/25/hexo6--next美化整理/</id>
+    <link href="http://www.pigpi.cn/2017/10/25/hexo6--next%E7%BE%8E%E5%8C%96%E6%95%B4%E7%90%86/"/>
+    <id>http://www.pigpi.cn/2017/10/25/hexo6--next美化整理/</id>
     <published>2017-10-25T05:15:08.000Z</published>
     <updated>2017-10-26T02:22:24.972Z</updated>
     
@@ -61,19 +61,19 @@
     
     </summary>
     
-      <category term="hexo建博" scheme="http://pigpi.cn/categories/hexo%E5%BB%BA%E5%8D%9A/"/>
+      <category term="hexo建博" scheme="http://www.pigpi.cn/categories/hexo%E5%BB%BA%E5%8D%9A/"/>
     
     
-      <category term="hexo" scheme="http://pigpi.cn/tags/hexo/"/>
+      <category term="hexo" scheme="http://www.pigpi.cn/tags/hexo/"/>
     
-      <category term="next" scheme="http://pigpi.cn/tags/next/"/>
+      <category term="next" scheme="http://www.pigpi.cn/tags/next/"/>
     
   </entry>
   
   <entry>
     <title>hexo5--hexo辅助插件和第三方服务</title>
-    <link href="http://pigpi.cn/2017/10/25/hexo5--hexo%E8%BE%85%E5%8A%A9%E6%8F%92%E4%BB%B6%E5%92%8C%E7%AC%AC%E4%B8%89%E6%96%B9%E6%9C%8D%E5%8A%A1/"/>
-    <id>http://pigpi.cn/2017/10/25/hexo5--hexo辅助插件和第三方服务/</id>
+    <link href="http://www.pigpi.cn/2017/10/25/hexo5--hexo%E8%BE%85%E5%8A%A9%E6%8F%92%E4%BB%B6%E5%92%8C%E7%AC%AC%E4%B8%89%E6%96%B9%E6%9C%8D%E5%8A%A1/"/>
+    <id>http://www.pigpi.cn/2017/10/25/hexo5--hexo辅助插件和第三方服务/</id>
     <published>2017-10-25T04:15:08.000Z</published>
     <updated>2017-10-26T01:56:59.112Z</updated>
     
@@ -88,21 +88,21 @@
     
     </summary>
     
-      <category term="hexo建博" scheme="http://pigpi.cn/categories/hexo%E5%BB%BA%E5%8D%9A/"/>
+      <category term="hexo建博" scheme="http://www.pigpi.cn/categories/hexo%E5%BB%BA%E5%8D%9A/"/>
     
     
-      <category term="hexo" scheme="http://pigpi.cn/tags/hexo/"/>
+      <category term="hexo" scheme="http://www.pigpi.cn/tags/hexo/"/>
     
   </entry>
   
   <entry>
     <title>hexo4--域名配置</title>
-    <link href="http://pigpi.cn/2017/10/24/hexo4--%E5%9F%9F%E5%90%8D%E9%85%8D%E7%BD%AE/"/>
-    <id>http://pigpi.cn/2017/10/24/hexo4--域名配置/</id>
+    <link href="http://www.pigpi.cn/2017/10/24/hexo4--%E5%9F%9F%E5%90%8D%E9%85%8D%E7%BD%AE/"/>
+    <id>http://www.pigpi.cn/2017/10/24/hexo4--域名配置/</id>
     <published>2017-10-24T06:15:08.000Z</published>
     <updated>2017-10-26T01:56:54.817Z</updated>
     
-    <content type="html"><![CDATA[<p>如果不喜欢github提供的域名，还可以绑定自己的域名。</p><h1 id="购买域名"><a href="#购买域名" class="headerlink" title="购买域名"></a>购买域名</h1><p>当然首先你得有一个域名，移步<a href="https://wanwang.aliyun.com" target="_blank" rel="external">万网</a></p><h1 id="域名解析"><a href="#域名解析" class="headerlink" title="域名解析"></a>域名解析</h1><p>域名解析我使用的是<a href="https://www.dnspod.cn/console/dashboard" target="_blank" rel="external">DNSPOD</a>，在你的域名购买商那里把域名的DNS服务器改成你使用的域名解析的地址。  </p><p>接着配置DNS解析，比如我的：  </p><p><img src="/2017/10/24/hexo4--域名配置/1.png" alt=""></p><a id="more"></a><p>关于github的IP可以<a href="https://help.github.com/articles/troubleshooting-custom-domains/#dns-configuration-errors" target="_blank" rel="external">看这里</a>。  </p><p>然后在你的本地站点目录里的source目录下添加一个CNAME文件，不带后缀，以文本编辑器打开CNAME，里面添加你的域名信息（不加http前缀），比如我的：<a href="http://pigpi.cn">pigpi.cn</a>。提交部署，现在使用域名应该就可以访问你的博客了。  </p><h2 id="关于企业邮箱的解析"><a href="#关于企业邮箱的解析" class="headerlink" title="关于企业邮箱的解析"></a>关于企业邮箱的解析</h2><p>目前遇到的情况只有一种，在集成Swiftype 站内搜索的时候，必须要企业邮箱进行注册。我使用的是腾讯企业邮箱，按照文档对域名解析进行配置即可。</p><p>​    </p>]]></content>
+    <content type="html"><![CDATA[<p>如果不喜欢github提供的域名，还可以绑定自己的域名。</p><h1 id="购买域名"><a href="#购买域名" class="headerlink" title="购买域名"></a>购买域名</h1><p>当然首先你得有一个域名，移步<a href="https://wanwang.aliyun.com" target="_blank" rel="external">万网</a></p><h1 id="域名解析"><a href="#域名解析" class="headerlink" title="域名解析"></a>域名解析</h1><p>域名解析我使用的是<a href="https://www.dnspod.cn/console/dashboard" target="_blank" rel="external">DNSPOD</a>，在你的域名购买商那里把域名的DNS服务器改成你使用的域名解析的地址。  </p><p>接着配置DNS解析，比如我的：  </p><p><img src="/2017/10/24/hexo4--域名配置/1.png" alt=""></p><a id="more"></a><p>关于github的IP可以<a href="https://help.github.com/articles/troubleshooting-custom-domains/#dns-configuration-errors" target="_blank" rel="external">看这里</a>。  </p><p>然后在你的本地站点目录里的source目录下添加一个CNAME文件，不带后缀，以文本编辑器打开CNAME，里面添加你的域名信息（不加http前缀），比如我的：<a href="http://pigpi.cn" target="_blank" rel="external">pigpi.cn</a>。提交部署，现在使用域名应该就可以访问你的博客了。  </p><h2 id="关于企业邮箱的解析"><a href="#关于企业邮箱的解析" class="headerlink" title="关于企业邮箱的解析"></a>关于企业邮箱的解析</h2><p>目前遇到的情况只有一种，在集成Swiftype 站内搜索的时候，必须要企业邮箱进行注册。我使用的是腾讯企业邮箱，按照文档对域名解析进行配置即可。</p><p>​    </p>]]></content>
     
     <summary type="html">
     
@@ -114,17 +114,17 @@
     
     </summary>
     
-      <category term="hexo建博" scheme="http://pigpi.cn/categories/hexo%E5%BB%BA%E5%8D%9A/"/>
+      <category term="hexo建博" scheme="http://www.pigpi.cn/categories/hexo%E5%BB%BA%E5%8D%9A/"/>
     
     
-      <category term="hexo" scheme="http://pigpi.cn/tags/hexo/"/>
+      <category term="hexo" scheme="http://www.pigpi.cn/tags/hexo/"/>
     
   </entry>
   
   <entry>
     <title>hexo3--主题的选择</title>
-    <link href="http://pigpi.cn/2017/10/24/hexo3--%E4%B8%BB%E9%A2%98%E7%9A%84%E9%80%89%E6%8B%A9/"/>
-    <id>http://pigpi.cn/2017/10/24/hexo3--主题的选择/</id>
+    <link href="http://www.pigpi.cn/2017/10/24/hexo3--%E4%B8%BB%E9%A2%98%E7%9A%84%E9%80%89%E6%8B%A9/"/>
+    <id>http://www.pigpi.cn/2017/10/24/hexo3--主题的选择/</id>
     <published>2017-10-24T05:15:08.000Z</published>
     <updated>2017-10-26T01:56:51.292Z</updated>
     
@@ -142,19 +142,19 @@ $ git clone https://github.com/iissnan/hexo-theme-next themes/next
     
     </summary>
     
-      <category term="hexo建博" scheme="http://pigpi.cn/categories/hexo%E5%BB%BA%E5%8D%9A/"/>
+      <category term="hexo建博" scheme="http://www.pigpi.cn/categories/hexo%E5%BB%BA%E5%8D%9A/"/>
     
     
-      <category term="hexo" scheme="http://pigpi.cn/tags/hexo/"/>
+      <category term="hexo" scheme="http://www.pigpi.cn/tags/hexo/"/>
     
-      <category term="next" scheme="http://pigpi.cn/tags/next/"/>
+      <category term="next" scheme="http://www.pigpi.cn/tags/next/"/>
     
   </entry>
   
   <entry>
     <title>hexo2--开始一篇博文</title>
-    <link href="http://pigpi.cn/2017/10/24/hexo2--%E5%BC%80%E5%A7%8B%E4%B8%80%E7%AF%87%E5%8D%9A%E6%96%87/"/>
-    <id>http://pigpi.cn/2017/10/24/hexo2--开始一篇博文/</id>
+    <link href="http://www.pigpi.cn/2017/10/24/hexo2--%E5%BC%80%E5%A7%8B%E4%B8%80%E7%AF%87%E5%8D%9A%E6%96%87/"/>
+    <id>http://www.pigpi.cn/2017/10/24/hexo2--开始一篇博文/</id>
     <published>2017-10-24T05:13:08.000Z</published>
     <updated>2017-10-26T01:56:44.068Z</updated>
     
@@ -170,17 +170,17 @@ $ git clone https://github.com/iissnan/hexo-theme-next themes/next
     
     </summary>
     
-      <category term="hexo建博" scheme="http://pigpi.cn/categories/hexo%E5%BB%BA%E5%8D%9A/"/>
+      <category term="hexo建博" scheme="http://www.pigpi.cn/categories/hexo%E5%BB%BA%E5%8D%9A/"/>
     
     
-      <category term="hexo" scheme="http://pigpi.cn/tags/hexo/"/>
+      <category term="hexo" scheme="http://www.pigpi.cn/tags/hexo/"/>
     
   </entry>
   
   <entry>
     <title>某些技术选型</title>
-    <link href="http://pigpi.cn/2017/10/20/%E6%9F%90%E4%BA%9B%E6%8A%80%E6%9C%AF%E9%80%89%E5%9E%8B/"/>
-    <id>http://pigpi.cn/2017/10/20/某些技术选型/</id>
+    <link href="http://www.pigpi.cn/2017/10/20/%E6%9F%90%E4%BA%9B%E6%8A%80%E6%9C%AF%E9%80%89%E5%9E%8B/"/>
+    <id>http://www.pigpi.cn/2017/10/20/某些技术选型/</id>
     <published>2017-10-20T06:15:08.000Z</published>
     <updated>2017-10-25T09:04:13.316Z</updated>
     
@@ -195,19 +195,19 @@ $ git clone https://github.com/iissnan/hexo-theme-next themes/next
     
     </summary>
     
-      <category term="技术栈" scheme="http://pigpi.cn/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/"/>
+      <category term="技术栈" scheme="http://www.pigpi.cn/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/"/>
     
     
-      <category term="工具" scheme="http://pigpi.cn/tags/%E5%B7%A5%E5%85%B7/"/>
+      <category term="工具" scheme="http://www.pigpi.cn/tags/%E5%B7%A5%E5%85%B7/"/>
     
-      <category term="框架技术" scheme="http://pigpi.cn/tags/%E6%A1%86%E6%9E%B6%E6%8A%80%E6%9C%AF/"/>
+      <category term="框架技术" scheme="http://www.pigpi.cn/tags/%E6%A1%86%E6%9E%B6%E6%8A%80%E6%9C%AF/"/>
     
   </entry>
   
   <entry>
     <title>hexo1--hexo + github-pages博客的简单搭建</title>
-    <link href="http://pigpi.cn/2017/01/04/hexo1--hexo%20+%20github-pages%E5%8D%9A%E5%AE%A2%E7%9A%84%E7%AE%80%E5%8D%95%E6%90%AD%E5%BB%BA/"/>
-    <id>http://pigpi.cn/2017/01/04/hexo1--hexo + github-pages博客的简单搭建/</id>
+    <link href="http://www.pigpi.cn/2017/01/04/hexo1--hexo%20+%20github-pages%E5%8D%9A%E5%AE%A2%E7%9A%84%E7%AE%80%E5%8D%95%E6%90%AD%E5%BB%BA/"/>
+    <id>http://www.pigpi.cn/2017/01/04/hexo1--hexo + github-pages博客的简单搭建/</id>
     <published>2017-01-04T06:15:08.000Z</published>
     <updated>2017-10-26T01:56:39.549Z</updated>
     
@@ -220,34 +220,34 @@ $ git clone https://github.com/iissnan/hexo-theme-next themes/next
     
     </summary>
     
-      <category term="hexo建博" scheme="http://pigpi.cn/categories/hexo%E5%BB%BA%E5%8D%9A/"/>
+      <category term="hexo建博" scheme="http://www.pigpi.cn/categories/hexo%E5%BB%BA%E5%8D%9A/"/>
     
     
-      <category term="hexo" scheme="http://pigpi.cn/tags/hexo/"/>
+      <category term="hexo" scheme="http://www.pigpi.cn/tags/hexo/"/>
     
   </entry>
   
   <entry>
     <title>路开始的地方</title>
-    <link href="http://pigpi.cn/2017/01/04/%E8%B7%AF%E5%BC%80%E5%A7%8B%E7%9A%84%E5%9C%B0%E6%96%B9/"/>
-    <id>http://pigpi.cn/2017/01/04/路开始的地方/</id>
+    <link href="http://www.pigpi.cn/2017/01/04/%E8%B7%AF%E5%BC%80%E5%A7%8B%E7%9A%84%E5%9C%B0%E6%96%B9/"/>
+    <id>http://www.pigpi.cn/2017/01/04/路开始的地方/</id>
     <published>2017-01-04T03:49:44.000Z</published>
     <updated>2017-10-25T07:48:39.217Z</updated>
     
-    <content type="html"><![CDATA[<p>首先欢迎来到我的博客 <strong><a href="http://pigpi.cn">猪皮</a></strong>。</p><p>本身自己是搞技术的，也尝试过写一些博客记录自己，但是总是没有坚持下来。总是说的太多，做的太少。不想给自己找原因，只想找个目标。</p><p>建立自己的博客，一直是想做的事情，遇到github pages于是水到渠成，简单轻便，不需要多重的环境，最多要有个域名。不关心到底有多少人看，只是想坚持下去，希望这是我写的最后一篇博客开篇。想写的东西很多：技术、生活、心情。。。看过很多东西，也对很多东西感兴趣过，可是自小对好记性不如烂笔头嗤之以鼻。其实现在是后悔的，一点一滴如果都记录下来，那么我肯定要比现在强很多。但是现在也不晚，所以少说话，多记录，文字的魅力需要时间来发酵。心里唯有两个字——<strong>坚持</strong>！</p><a id="more"></a><p>为什么博客名字叫猪皮呢？本身我姓朱，然后儿子刚刚3岁，喜欢叫自己老皮！恰好pigpi的域名也在，于是毫不犹豫的这么叫了。</p><p>好了，就这些了，欢迎常来！</p>]]></content>
+    <content type="html"><![CDATA[<p>首先欢迎来到我的博客 <strong><a href="http://pigpi.cn" target="_blank" rel="external">猪皮</a></strong>。</p><p>本身自己是搞技术的，也尝试过写一些博客记录自己，但是总是没有坚持下来。总是说的太多，做的太少。不想给自己找原因，只想找个目标。</p><p>建立自己的博客，一直是想做的事情，遇到github pages于是水到渠成，简单轻便，不需要多重的环境，最多要有个域名。不关心到底有多少人看，只是想坚持下去，希望这是我写的最后一篇博客开篇。想写的东西很多：技术、生活、心情。。。看过很多东西，也对很多东西感兴趣过，可是自小对好记性不如烂笔头嗤之以鼻。其实现在是后悔的，一点一滴如果都记录下来，那么我肯定要比现在强很多。但是现在也不晚，所以少说话，多记录，文字的魅力需要时间来发酵。心里唯有两个字——<strong>坚持</strong>！</p><a id="more"></a><p>为什么博客名字叫猪皮呢？本身我姓朱，然后儿子刚刚3岁，喜欢叫自己老皮！恰好pigpi的域名也在，于是毫不犹豫的这么叫了。</p><p>好了，就这些了，欢迎常来！</p>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;首先欢迎来到我的博客 &lt;strong&gt;&lt;a href=&quot;http://pigpi.cn&quot;&gt;猪皮&lt;/a&gt;&lt;/strong&gt;。&lt;/p&gt;
+      &lt;p&gt;首先欢迎来到我的博客 &lt;strong&gt;&lt;a href=&quot;http://pigpi.cn&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;猪皮&lt;/a&gt;&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;本身自己是搞技术的，也尝试过写一些博客记录自己，但是总是没有坚持下来。总是说的太多，做的太少。不想给自己找原因，只想找个目标。&lt;/p&gt;
 &lt;p&gt;建立自己的博客，一直是想做的事情，遇到github pages于是水到渠成，简单轻便，不需要多重的环境，最多要有个域名。不关心到底有多少人看，只是想坚持下去，希望这是我写的最后一篇博客开篇。想写的东西很多：技术、生活、心情。。。看过很多东西，也对很多东西感兴趣过，可是自小对好记性不如烂笔头嗤之以鼻。其实现在是后悔的，一点一滴如果都记录下来，那么我肯定要比现在强很多。但是现在也不晚，所以少说话，多记录，文字的魅力需要时间来发酵。心里唯有两个字——&lt;strong&gt;坚持&lt;/strong&gt;！&lt;/p&gt;
     
     </summary>
     
-      <category term="生活" scheme="http://pigpi.cn/categories/%E7%94%9F%E6%B4%BB/"/>
+      <category term="生活" scheme="http://www.pigpi.cn/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-      <category term="随想" scheme="http://pigpi.cn/tags/%E9%9A%8F%E6%83%B3/"/>
+      <category term="随想" scheme="http://www.pigpi.cn/tags/%E9%9A%8F%E6%83%B3/"/>
     
   </entry>
   
