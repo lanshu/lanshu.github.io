@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.pigpi.cn/"/>
-  <updated>2017-11-24T07:45:24.115Z</updated>
+  <updated>2017-11-24T08:13:25.156Z</updated>
   <id>http://www.pigpi.cn/</id>
   
   <author>
@@ -17,13 +17,27 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>spring cloud(1) 服务的注册与发现Eureka、Consul</title>
+    <link href="http://www.pigpi.cn/2017/11/24/spring-cloud-1-%E6%9C%8D%E5%8A%A1%E7%9A%84%E6%B3%A8%E5%86%8C%E4%B8%8E%E5%8F%91%E7%8E%B0Eureka%E3%80%81Consul/"/>
+    <id>http://www.pigpi.cn/2017/11/24/spring-cloud-1-服务的注册与发现Eureka、Consul/</id>
+    <published>2017-11-24T08:13:25.000Z</published>
+    <updated>2017-11-24T08:13:25.156Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>spring-cloud开篇</title>
     <link href="http://www.pigpi.cn/2017/11/24/spring-cloud%E5%BC%80%E7%AF%87/"/>
     <id>http://www.pigpi.cn/2017/11/24/spring-cloud开篇/</id>
     <published>2017-11-24T07:37:56.000Z</published>
     <updated>2017-11-24T07:45:24.115Z</updated>
     
-    <content type="html"><![CDATA[<p>微服务的概念现在特别火热，以前研究过SOA，但是实际使用中还是出了不少问题，服务粒度过大，业务越来越多的时候会很混乱。当然这个和缺乏经验有关，毕竟实践机会比较少，项目规模没那么大，我一直坚信技术架构的演变是由业务规模推进的。虽然高射炮打蚊子真的是浪费，但是作为技术屌丝，还是要偷偷摸摸的学习下怎么造高射炮，真到哪天蚊子那么大了，我也能随时掏出来。  </p><p>微服务在我看来真的是大势所趋，所以我来开始自己折腾折腾。我自己大致整理了一下和微服务相关的技术栈，如下图：  </p><p><img src="/2017/11/24/spring-cloud开篇/1.jpeg" alt="">  </p><p>主要基于spring cloud，涉及的技术、框架、知识面都很多，并且目前并没有一种成熟的解决方案，所以更像一盒乐高，需要自己去装配，我对于这种东西比较感兴趣哈。如果针对这张图的话，自己欠缺的还很多，只好慢慢来了。目前技术栈只是初始版本，后续学习过程中有新增的、调整的，我也会及时更新，这个就当是总纲吧。</p>]]></content>
+    <content type="html"><![CDATA[<p>微服务的概念现在特别火热，以前研究过SOA，但是实际使用中还是出了不少问题，服务粒度过大，业务越来越多的时候会很混乱。当然这个和缺乏经验有关，毕竟实践机会比较少，项目规模没那么大，我一直坚信技术架构的演变是由业务规模推进的。虽然高射炮打蚊子真的是浪费，但是作为技术屌丝，还是要偷偷摸摸的学习下怎么造高射炮，真到哪天蚊子那么大了，我也能随时掏出来。  </p><p>微服务在我看来真的是大势所趋，所以我来开始自己折腾折腾。我自己大致整理了一下和微服务相关的技术栈，如下图：  </p><p><img src="/2017/11/24/spring-cloud开篇/1.jpeg" alt="">  </p><p>主要基于spring cloud，涉及的技术、框架、知识面都很多，并且目前并没有一种成熟的解决方案，所以更像一盒乐高，需要自己去装配，我对于这种东西比较感兴趣哈。如果针对这张图的话，自己欠缺的还很多，只好慢慢来了。目前技术栈只是初始版本，后续学习过程中有新增的、调整的，我也会及时更新，这个就当是总纲吧。</p><p>网上的教程比较好的当属<a href="http://blog.didispace.com/Spring-Cloud%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/" target="_blank" rel="external">翟永超</a>的系列教程了，感谢先行者的探索。</p><p>基础的已经说的非常详细了，我不想重复，但是用于实战可能还有很多问题，我的目的就是在自己的实践中去补充，完善，最终用于生产环境。</p>]]></content>
     
     <summary type="html">
     

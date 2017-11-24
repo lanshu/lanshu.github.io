@@ -1,3 +1,4 @@
+http://www.pigpi.cn/2017/11/24/spring-cloud-1-服务的注册与发现Eureka、Consul/
 http://www.pigpi.cn/2017/11/24/spring-cloud开篇/
 http://www.pigpi.cn/2017/10/25/hexo7--next小问题修改/
 http://www.pigpi.cn/2017/10/25/hexo6--next美化整理/
